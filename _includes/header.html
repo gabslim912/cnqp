@@ -126,38 +126,25 @@
                               <li>
                                 <div class="row">
                                   <div class="col-lg-8 col-md-9">
-                                    <h4 class="title">Formation Initiale</h4>
+                                    
                                     <div class="row">
-                                      <div class="col-sm-4">
+                                      <div class="col-sm-6">
+                                        <h4 class="title">Formation Initiale</h4>
                                         <div class="divider"></div>
                                         <ul class="menu">
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 1</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 2</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 3</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 4</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 5</a></li>
+                                          {% for departement in site.departements %}
+                                          <li ><a href="{{ departement.url }}" target="blank"><i class="fa fa-angle-right"></i>{{ departement.title | slice: 0, 26}}</a></li>
+                                         {% endfor %}
                                          
                                         </ul>
                                       </div>
-                                      <div class="col-sm-4">
+                                      <div class="col-sm-6">
+                                        <h4 class="title">Formation Continue</h4>
                                         <div class="divider"></div>
                                         <ul class="menu">
-                                           <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 6</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 7</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 8</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 9</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 10</a></li>
-                                        </ul>
-                                      </div>
-                                      <div class="col-sm-4">
-                                        <div class="divider"></div>
-                                        <ul class="menu">
-                                           <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 11</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 12</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 13</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 14</a></li>
-                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Filière 15</a></li>
-                                        </ul>
+                                           <li ><a href="/departement"><i class="fa fa-angle-right"></i>Formation Continue</a></li>
+                                          <li ><a href="/departement"><i class="fa fa-angle-right"></i>Maintenance Production</a></li>
+                                         
                                       </div>
                                     </div>
                                   </div>

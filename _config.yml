@@ -10,8 +10,8 @@ collections:
     output: true
   departements:
     title: departements
-    output: false
-    hidden: false
+    output: true
+    layout: departement
 email: contact@cnqp.com
 tel: 33 832 60 24 - 33 832 39 79
 adresse: 
