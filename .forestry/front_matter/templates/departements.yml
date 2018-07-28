@@ -10,10 +10,6 @@ fields:
   name: mini_desc
   label: mini description
   description: Les objectifs de la filière
-- type: textarea
-  name: description
-  label: description
-  description: Description Générale
 - type: list
   config:
     use_select: false
