@@ -30,3 +30,5 @@ fields:
   name: image
   label: image principale
   description: Insérer une image de taille
+pages:
+- _departements/mecanique-automobile.md
