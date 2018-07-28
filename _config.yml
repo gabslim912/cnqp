@@ -17,7 +17,7 @@ title: Centre National de la Qualification Professionnelle
 collections:
   departements:
     title: departements
-    output: true
+    hidden: false
 email: contact@cnqp.com
 tel: 33 832 60 24 - 33 832 39 79
 adresse: 
