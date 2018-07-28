@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Centre National de la Qualification Professionnelle
 collections:
-  filieres:
-    title: filieres
+  departements:
+    title: departements
     output: true
 email: contact@cnqp.com
 tel: 33 832 60 24 - 33 832 39 79
