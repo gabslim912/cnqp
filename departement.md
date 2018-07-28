@@ -1,5 +1,6 @@
 ---
-layout: departement
 title: Departement
-permalink: /departement/
+permalink: "/departement/"
+layout: departement
 ---
+
