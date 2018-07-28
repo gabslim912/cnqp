@@ -22,6 +22,16 @@ fields:
   name: diplomes
   label: Diplomes desservies
   description: Liste des diplomes offerts sur cette filière
+  fields:
+  - type: text
+    label: nom du diplome
+    name: nom_diplome
+  - type: textarea
+    name: description
+    label: description
+  - type: textarea
+    name: mini_description
+    label: mini description
 - type: file
   name: image
   label: image principale
