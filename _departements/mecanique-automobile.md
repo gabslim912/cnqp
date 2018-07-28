@@ -36,7 +36,6 @@ diplomes:
     mettre sur le marché du travail des ouvriers qualifiés opérationnels
   nom_complet: Bac Technique
 image: "/uploads/mecanique_auto.jpg"
-published: false
 
 ---
 Son mode de fonctionnement se rapproche davantage de celui de l’entreprise. La formation d’une durée de deux à trois ans a pour objectif de mettre sur le marché du travail des ouvriers qualifiés opérationnels dès leur sortie grâce à un système d’alternance centre de formation / entreprise, Un contrat de formation et un règlement intérieur lient le stagiaire au centre.
