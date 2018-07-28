@@ -26,6 +26,9 @@ fields:
   - type: text
     label: nom du diplome
     name: nom_diplome
+  - type: text
+    name: nom_complet
+    label: nom complet
   - type: textarea
     name: description
     label: description
