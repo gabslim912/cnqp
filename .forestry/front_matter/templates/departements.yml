@@ -1,0 +1,32 @@
+---
+label: departements
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: titre
+- type: textarea
+  name: mini_desc
+  label: mini description
+  description: Les objectifs de la filière
+- type: textarea
+  name: description
+  label: description
+  description: Description Générale
+- type: list
+  config:
+    use_select: false
+    source:
+      type: datafiles
+  label: Matieres communes
+  name: matieres_com
+  description: liste de 4 ou 5 matières générales
+- type: field_group_list
+  name: diplomes
+  label: Diplomes desservies
+  description: Liste des diplomes offerts sur cette filière
+- type: file
+  name: image
+  label: image principale
+  description: Insérer une image de taille
