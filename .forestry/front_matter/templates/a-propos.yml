@@ -1,0 +1,69 @@
+---
+label: A propos
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+  hidden: true
+  default: About
+- type: text
+  name: permalink
+  label: permalink
+  default: "/about/"
+  hidden: true
+- type: text
+  name: layout
+  label: layout
+  default: about
+  hidden: true
+- type: textarea
+  name: mini_desc
+  label: mini description
+- type: file
+  name: background
+  label: background
+- type: field_group_list
+  name: sliders
+  label: sliders
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: image
+    label: image
+- type: field_group_list
+  name: membres
+  label: membres
+  fields:
+  - type: text
+    label: nom
+    name: nom
+    default: Prenom Nom
+  - type: text
+    name: poste
+    label: poste
+    default: Poste occupé
+  - type: textarea
+    name: phrase
+    label: phrase
+    default: anecdote preférée
+  - type: file
+    name: image
+    label: image
+    default: "/uploads/gym-team-3.jpg"
+- type: field_group_list
+  name: avantages
+  label: avantages
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+- type: list
+  name: bars
+  label: bars
