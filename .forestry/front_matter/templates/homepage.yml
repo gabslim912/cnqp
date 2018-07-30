@@ -1,0 +1,32 @@
+---
+label: homepage
+hide_body: false
+is_partial: false
+fields:
+- type: field_group_list
+  name: sliders
+  label: sliders
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: link
+    label: link
+  - type: textarea
+    name: description
+    label: description
+  - type: file
+    name: image
+    label: image
+- type: textarea
+  name: historique
+  label: historique
+- type: file
+  name: image_1
+  label: image 1
+  description: Image apparaissant a droite de l'historique
+- type: list
+  name: diplomes
+  label: diplomes
+  description: Ajoutez au fur et a mesure les diplomes en cliquant sur add
