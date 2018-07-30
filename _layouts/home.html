@@ -14,12 +14,13 @@ layout: default
           <div class="slider-banner-container">
             <div class="slider-banner-fullwidth">
               <ul class="slides">
+                {% for slider in page.sliders %}
                 <!-- slide 1 start -->
                 <!-- ================ -->
                 <li data-transition="fade" data-slotamount="4" data-masterspeed="500" data-saveperformance="on" data-title="">
                 
                 <!-- main image -->
-                <img src="/images/education-slider.jpg" alt="slidebg1" data-bgrepeat="no-repeat" data-bgfit="cover" style="background-position: 80% 80%;">
+                <img src="{{ slider.image }}" alt="slidebg1" data-bgrepeat="no-repeat" data-bgfit="cover" style="background-position: 80% 80%;">
                 
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption fade fadeout dark-translucent-bg caption-box text-left"
@@ -30,63 +31,15 @@ layout: default
                   data-start="1300"
                   data-easing="easeOutQuad"
                   data-endspeed="600">
-                  <h2 class="title"><a href="#" class="link-light">Notre raison d’être</a></h2>
+                  <h2 class="title"><a href="#" class="link-light">{{ slider.title }}</a></h2>
                   <div class="separator-2 light clearfix hidden-xs"></div>
-                  <p class="hidden-xs">Le CNQP a pour mission principale de préparer à l’emploi les jeunes issus du système scolaire sans qualification professionnelle, d’assurer la formation continue des agents en activité et de jouer le rôle de conseil en matière de formation professionnelle auprès des entreprises.</p>
-                  <div class="text-right hidden-xs"><a class="btn btn-small btn-default margin-clear" href="/about" target="blank">En savoir plus</a></div>
+                  <p class="hidden-xs">{{ slider.description }}</p>
+                  <div class="text-right hidden-xs"><a class="btn btn-small btn-default margin-clear" href="{{ slider.link }}" target="blank">En savoir plus</a></div>
                 </div>
 
                 </li>
                 <!-- slide 1 end -->
-
-                <!-- slide 2 start -->
-                <!-- ================ -->
-                <li data-transition="fade" data-slotamount="4" data-masterspeed="500" data-saveperformance="on" data-title="">
-                
-                <!-- main image -->
-                <img src="/images/education-slider.jpg" alt="slidebg2" data-bgrepeat="no-repeat" data-bgfit="cover" style="background-position: 80% 60%;">
-
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption fade fadeout dark-translucent-bg caption-box text-left"
-                  style="background-color: rgba(0, 0, 0, 0.45);"
-                  data-x="right"
-                  data-y="bottom" 
-                  data-speed="500"
-                  data-start="1300"
-                  data-easing="easeOutQuad"
-                  data-endspeed="600">
-                  <h2 class="title"><a href="#" class="link-light">Notre vision a long terme</a></h2>
-                  <div class="separator-2 light clearfix hidden-xs"></div>
-                  <p class="hidden-xs"> Faire du CNQP, la clé de la formation professionnelle au Sénégal, par un enseignement de qualité en parfaite adéquation avec les besoins de l’entreprise </p>
-                  <div class="text-right hidden-xs"><a class="btn btn-small btn-default margin-clear" href="/about" target="blank">En savoir plus</a></div>
-                </div>
-
-                </li>
-                <!-- slide 2 end -->
-                <!-- slide 2 start -->
-                <!-- ================ -->
-                <li data-transition="fade" data-slotamount="4" data-masterspeed="500" data-saveperformance="on" data-title="">
-                
-                <!-- main image -->
-                <img src="/images/education-slider.jpg" alt="slidebg2" data-bgrepeat="no-repeat" data-bgfit="cover" style="background-position: 80% 60%;">
-
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption fade fadeout dark-translucent-bg caption-box text-left"
-                  style="background-color: rgba(0, 0, 0, 0.45);"
-                  data-x="right"
-                  data-y="bottom" 
-                  data-speed="500"
-                  data-start="1300"
-                  data-easing="easeOutQuad"
-                  data-endspeed="600">
-                  <h2 class="title"><a href="#" class="link-light">Ce qui nous définit et nous motive </a></h2>
-                  <div class="separator-2 light clearfix hidden-xs"></div>
-                  <p class="hidden-xs"> Un vaste processus de consultation a permis de dégager les valeurs considérées comme fondamentales et qui reflétaient adéquatement la culture de l’établissement </p>
-                  <div class="text-right hidden-xs"><a class="btn btn-small btn-default margin-clear" href="/about" target="blank">En savoir plus</a></div>
-                </div>
-
-                </li>
-                <!-- slide 2 end -->
+                {% endfor %}
               </ul>
               <div class="tp-bannertimer"></div>
             </div>
@@ -108,22 +61,12 @@ layout: default
           <div class="separator-2"></div>
           <div class="row mb-20">
             <div class="col-lg-6">
-              <img src="/images/education-about.jpg" alt="">
+              <img src="{{ page.image_1 }}" alt="">
             </div>
             <div class="col-lg-6">
               <h3>Depuis <span class="text-default">1983</span></h3>
-              <p><em>C’est la loi n° 83.52 du 18 février 1983 qui consacre la création du Centre National de Qualification Professionnelle (CNQP) avec le statut d’Etablissement Public à Caractère Administratif (EPA). Le CNQP devenait ainsi une structure gérée de façon tripartite Gouvernement, Entreprises, Travailleurs. </br>Son autonomie pédagogique et financière a favorisé la recherche d’une liaison permanente entre le Centre et les Entreprises à travers des concertations larges pour la définition et l’exécution des actions de formation et/ou de perfectionnement. En 2000 l’Etat a décidé de faire évoluer à nouveau son statut en le consacrant Etablissement Public à caractère Industriel et Commercial (EPIC) par la loi n° 2000-26 du 1er septembre 2000 et les règles d’organisation consacrées par le décret 2000.865 du 31 octobre 2000. </br>Cette modification de statut du CNQP répond au souci de renforcer son autonomie pédagogique et financière et l’identifier à une entreprise privée pour son mode de gestion et ses rapports avec les tiers.</em></p>
-              <h3>Nous <span class="text-default">joindre</span></h3>
-              <ul class="social-links default circle animated-effect-1">
-                <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-                <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-                <li class="instagram"><a target="_blank" href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
-                <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-                <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
-                <li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
-              </ul>
+              <p class="text-justify">{{ page.content }}</p>
+              
             </div>
           </div>
           
@@ -136,92 +79,29 @@ layout: default
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h3 class="title text-center">Etudier a <span class="text-default">College University</span></h3>
+              <h3 class="title text-center">Etudier au <span class="text-default">CNQP</span></h3>
               <div class="separator"></div>
-              <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos, adipisci ipsa aut.</p>
+              <p class="lead text-center">Le CNQP offre plusieurs types de formation dans differents domaine pouvant aboutir aux diplomes d'Etat énumérés ci-dessous</p>
             </div>
           </div>
         </div>
         <div class="container-fluid">
           <div class="row">
+            {% for diplome in page.diplomes %}
             <div class="col-sm-6 col-md-4 col-lg-2">
               <div class="image-box shadow text-center mb-20">
                 <div class="overlay-container overlay-visible">
                   <img src="/images/education-4.jpg" alt="">
-                  <a href="/departement" target="blank" class="overlay-link"><i class="fa fa-link"></i></a>
+                  <a href="#" target="blank" class="overlay-link"><i class="fa fa-link"></i></a>
                   <div class="overlay-bottom">
                     <div class="text">
-                      <p class="lead margin-clear mobile-visible">Specialité 1</p>
+                      <p class="lead margin-clear mobile-visible">{{ diplome }}</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="image-box shadow text-center mb-20">
-                <div class="overlay-container overlay-visible">
-                  <img src="/images/education-4.jpg" alt="">
-                  <a href="/departement" target="blank" class="overlay-link"><i class="fa fa-link"></i></a>
-                  <div class="overlay-bottom">
-                    <div class="text">
-                      <p class="lead margin-clear mobile-visible">Specialité 2</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="image-box shadow text-center mb-20">
-                <div class="overlay-container overlay-visible">
-                  <img src="/images/education-4.jpg" alt="">
-                  <a href="/departement" target="blank" class="overlay-link"><i class="fa fa-link"></i></a>
-                  <div class="overlay-bottom">
-                    <div class="text">
-                      <p class="lead margin-clear mobile-visible">Specialité 3</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="image-box shadow text-center mb-20">
-                <div class="overlay-container overlay-visible">
-                  <img src="/images/education-4.jpg" alt="">
-                  <a href="/departement" target="blank" class="overlay-link"><i class="fa fa-link"></i></a>
-                  <div class="overlay-bottom">
-                    <div class="text">
-                      <p class="lead margin-clear mobile-visible">Specialité 4</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="image-box shadow text-center mb-20">
-                <div class="overlay-container overlay-visible">
-                  <img src="/images/education-4.jpg" alt="">
-                  <a href="/departement" target="blank" class="overlay-link"><i class="fa fa-link"></i></a>
-                  <div class="overlay-bottom">
-                    <div class="text">
-                      <p class="lead margin-clear mobile-visible">Specialité 5</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="image-box shadow text-center mb-20">
-                <div class="overlay-container overlay-visible">
-                  <img src="/images/education-4.jpg" alt="">
-                  <a href="/departement" target="blank" class="overlay-link"><i class="fa fa-link"></i></a>
-                  <div class="overlay-bottom">
-                    <div class="text">
-                      <p class="lead margin-clear mobile-visible">Specialité 6</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {% endfor %}
           </div>
         </div>
       </section>
