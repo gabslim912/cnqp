@@ -30,3 +30,5 @@ fields:
   name: diplomes
   label: diplomes
   description: Ajoutez au fur et a mesure les diplomes en cliquant sur add
+pages:
+- acceuil.md
