@@ -67,3 +67,5 @@ fields:
 - type: list
   name: bars
   label: bars
+pages:
+- a-propos.md
