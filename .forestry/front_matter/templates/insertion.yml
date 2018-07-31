@@ -1,0 +1,34 @@
+---
+label: Insertion
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+  default: Cellule d'insertion
+- type: text
+  name: permalink
+  label: permalink
+  default: "/insertion/"
+- type: text
+  name: layout
+  label: layout
+  default: insertion
+- type: file
+  name: image
+  label: image
+  description: Image parallax
+- type: field_group_list
+  name: objectifs
+  label: objectifs
+  fields:
+  - type: text
+    name: titre
+    label: titre
+  - type: textarea
+    name: description
+    label: description
+  - type: file
+    name: image
+    label: image
