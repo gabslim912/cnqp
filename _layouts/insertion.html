@@ -1,187 +1,372 @@
----
-layout: default
----
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
 
-<!-- banner start -->
-<!-- ================ -->
-<div class="banner default-translucent-bg" style="background-image:url('{{ page.image }}');background-position:50% 0;">
-	<!-- breadcrumb start -->
-	<!-- ================ -->
-	<div class="breadcrumb-container">
-		<div class="container">
-			<ol class="breadcrumb">
-				<li><i class="fa fa-home pr-10"></i><a class="link-dark" href="/">Acceuil</a></li>
-				<li class="active">Cellule d'insertion</li>
-			</ol>
-		</div>
-	</div>
-	<!-- breadcrumb end -->
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 text-center col-md-offset-2 pv-20">
-				<h1 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">Cellule d'insertion</h1>
-				<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="100"></div>
-				<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">La relance de la Cellule d’Appui à l’Insertion Professionnelle du CNQP (CAIPRO/CNQP) s’inscrit dans le cadre de la nouvelle politique définie par la  Direction Générale. </p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- banner end -->
-<!-- main-container start -->
-<!-- ================ -->
-<section class="main-container border-clear light-gray-bg padding-bottom-clear">
+  {% include head.html %}
 
-	<div class="container">
-		<div class="row">
+  <!-- body classes:  -->
+  <!-- "boxed": boxed layout mode e.g. <body class="boxed"> -->
+  <!-- "pattern-1 ... pattern-9": background patterns for boxed layout mode e.g. <body class="boxed pattern-1"> -->
+  <!-- "transparent-header": makes the header transparent and pulls the banner to top -->
+  <!-- "gradient-background-header": applies gradient background to header -->
+  <!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
+  <body class="no-trans front-page   page-loader-2">
 
-			<!-- main start -->
+    <!-- scrollToTop -->
+    <!-- ================ -->
+    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+    
+    <!-- page wrapper start -->
+    <!-- ================ -->
+    <div class="page-wrapper">
+    
+      {% include header.html %}
+		<!-- banner start -->
+		<!-- ================ -->
+		<div class="banner default-translucent-bg" style="background-image:url('{{ page.image }}');background-position:50% 0;">
+			<!-- breadcrumb start -->
 			<!-- ================ -->
-			<div class="main col-md-12">
-
-				<!-- page-title start -->
-				<!-- ================ -->
-				<h1 class="page-title text-center">LES OBJECTIFS</h1>
-				<!-- page-title end -->
-				
-				<div class="image-box space-top style-4">
-					<div class="row grid-space-0">
-						<div class="col-md-6">
-							<div class="overlay-container">
-								<img src="/images/service-2.jpg" alt="">
-								<div class="overlay-to-top">
-									<p class="small margin-clear"><em>Some info <br> Lorem ipsum dolor sit</em></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="body">
-								<div class="pv-30 visible-lg"></div>
-								<h3>Insertion Professionnelle</h3>
-								<div class="separator-2"></div>
-								<p class="margin-clear">Elle a pour mission de mettre en place des initiatives orientées vers l’insertion professionnelle des apprenants et stagiaires, à tous les niveaux de formation.</p>
-								<br>
-								
-							</div>
-						</div>
+			<div class="breadcrumb-container">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home pr-10"></i><a class="link-dark" href="/">Acceuil</a></li>
+						<li class="active">Cellule d'insertion</li>
+					</ol>
+				</div>
+			</div>
+			<!-- breadcrumb end -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 text-center col-md-offset-2 pv-20">
+						<h1 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">Cellule d'insertion</h1>
+						<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="100"></div>
+						<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">La relance de la Cellule d’Appui à l’Insertion Professionnelle du CNQP (CAIPRO/CNQP) s’inscrit dans le cadre de la nouvelle politique définie par la  Direction Générale. </p>
 					</div>
 				</div>
-				<div class="image-box style-4">
-					<div class="row grid-space-0">
-						<div class="col-md-6 col-md-push-6">
-							<div class="overlay-container">
-								<img src="/images/service-3.jpg" alt="">
-								<div class="overlay-to-top">
-									<p class="small margin-clear"><em>Some info <br> Lorem ipsum dolor sit</em></p>
+			</div>
+		</div>
+		<!-- banner end -->
+		<!-- main-container start -->
+		<!-- ================ -->
+		<section class="main-container border-clear light-gray-bg padding-bottom-clear">
+
+			<div class="container">
+				<div class="row">
+
+					<!-- main start -->
+					<!-- ================ -->
+					<div class="main col-md-12">
+
+						<!-- page-title start -->
+						<!-- ================ -->
+						<h1 class="page-title text-center">LES OBJECTIFS</h1>
+						<!-- page-title end -->
+						
+						<div class="image-box  style-4">
+							<div class="row grid-space-0">
+								<div class="col-md-6">
+									<div class="overlay-container">
+										<img src="/images/service-2.jpg" alt="">
+										<div class="overlay-to-top">
+											<p class="small margin-clear"><em>Some info <br> Lorem ipsum dolor sit</em></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="body">
+										<div class="pv-30 visible-lg"></div>
+										<h3>Insertion Professionnelle</h3>
+										<div class="separator-2"></div>
+										<p class="margin-clear text-justify">Elle a pour mission de mettre en place des initiatives orientées vers l’insertion professionnelle des apprenants et stagiaires, à tous les niveaux de formation.</p>
+										<br>
+										
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-md-pull-6">
-							<div class="body text-right">
-								<div class="pv-30 visible-lg"></div>
-								<h3>Statistiques</h3>
+						<div class="image-box style-4">
+							<div class="row grid-space-0">
+								<div class="col-md-6 col-md-push-6">
+									<div class="overlay-container">
+										<img src="/images/service-3.jpg" alt="">
+										<div class="overlay-to-top">
+											<p class="small margin-clear"><em>Some info <br> Lorem ipsum dolor sit</em></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 col-md-pull-6">
+									<div class="body text-right">
+										<div class="pv-30 visible-lg"></div>
+										<h3>Statistiques</h3>
+										<div class="separator-3"></div>
+										<p class="margin-clear">Elle permet de disposer de statistiques fiables sur l’insertion professionnelle des formés</p>
+										<br>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="image-box style-4">
+							<div class="row grid-space-0">
+								<div class="col-md-6">
+									<div class="overlay-container">
+										<img src="/images/service-4.jpg" alt="">
+										<div class="overlay-to-top">
+											<p class="small margin-clear"><em>Some info <br> Lorem ipsum dolor sit</em></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="body">
+										<div class="pv-30 visible-lg"></div>
+										<h3>Relation école - entreprise</h3>
+										<div class="separator-2"></div>
+										<p class="margin-clear">Elle sert de liaison entre les entreprises utilisatrices de main d’œuvre et les formés du CNQP.</p>
+										<br>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!-- main end -->
+
+				</div>
+			</div>
+		</section>
+		<!-- main-container end -->
+
+		</br>
+
+		<!-- section start -->
+		<!-- ================ -->
+		<section class="pv-40 dark-translucent-bg background-img-1">
+			<div class="container">
+				<h2 class="title text-center"><strong>LES BENEFICES</strong></h2>
+				<div class="separator"></div>
+				<br>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="feature-box-2 object-non-visible right" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+							<span class="icon light-bg small"><i class="fa fa-arrows"></i></span>
+							<div class="body">
+								<h4 class="title">Responsive Design</h4>
+								<p>Our design is with responsive in mind. Our themes are compatible with various devices.</p>
 								<div class="separator-3"></div>
-								<p class="margin-clear">Elle permet de disposer de statistiques fiables sur l’insertion professionnelle des formés</p>
-								<br>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="image-box style-4">
-					<div class="row grid-space-0">
-						<div class="col-md-6">
-							<div class="overlay-container">
-								<img src="/images/service-4.jpg" alt="">
-								<div class="overlay-to-top">
-									<p class="small margin-clear"><em>Some info <br> Lorem ipsum dolor sit</em></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
+						<div class="feature-box-2 object-non-visible right" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+							<span class="icon light-bg small"><i class="icon-megaphone"></i></span>
 							<div class="body">
-								<div class="pv-30 visible-lg"></div>
-								<h3>Relation école - entreprise</h3>
-								<div class="separator-2"></div>
-								<p class="margin-clear">Elle sert de liaison entre les entreprises utilisatrices de main d’œuvre et les formés du CNQP.</p>
-								<br>
-								
+								<h4 class="title">Easy to Use</h4>
+								<p>Our design is with responsive in mind. Our themes are compatible with various devices.</p>
+								<div class="separator-3"></div>
 							</div>
 						</div>
+						<div class="feature-box-2 object-non-visible right" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+							<span class="icon light-bg small"><i class="icon-infinity"></i></span>
+							<div class="body">
+								<h4 class="title">Unlimited options and variations</h4>
+								<p>Our design is with responsive in mind. Our themes are compatible with various devices.</p>
+								<div class="separator-3"></div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<div class="col-md-6">
+						<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+							<span class="icon light-bg small"><i class="icon-snow"></i></span>
+							<div class="body">
+								<h4 class="title">Latest Technologies</h4>
+								<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
+								<div class="separator-2"></div>
+							</div>
+						</div>
+						<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+							<span class="icon light-bg small"><i class=" icon-tools"></i></span>
+							<div class="body">
+								<h4 class="title">Deticated Support</h4>
+								<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
+								<div class="separator-2"></div>
+							</div>
+						</div>
+						<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+							<span class="icon light-bg small"><i class="icon-star-empty"></i></span>
+							<div class="body">
+								<h4 class="title">Valid Code</h4>
+								<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
+								<div class="separator-2"></div>
+							</div>
+						</div>
+						<br>
 					</div>
 				</div>
-				
 			</div>
-			<!-- main end -->
+		</section>
+		<!-- section end -->
+		  <!-- ================ -->
+      	<footer id="footer" class="clearfix ">
 
-		</div>
-	</div>
-</section>
-<!-- main-container end -->
+        <!-- .footer start -->
+        <!-- ================ -->
+        <div class="footer">
+          <div class="container">
+            <div class="footer-inner">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="footer-content">
+                    <h2 class="title logo-font text-default">Le College</h2>
+                    <div class="separator-2"></div>
+                    <nav class="mb-20">
+                      <ul class="nav nav-pills nav-stacked list-style-icons">
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Lorem ipsum dolor sit</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i>  Consectetur adipisicing elit</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Rerum iure temporibus</a></li>
+                      </ul>
+                    </nav>
+                    <h4 class="title text-default"><i class="fa fa-wechat pr-10"></i> Consectetur adipisicing</h4>
+                    <nav class="mb-20">
+                      <ul class="nav nav-pills nav-stacked list-style-icons">
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Repudiandae porro doloribus</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Amet culpa</a></li>
+                        <li><a target="_blank" href="http://revovision.ca"><i class="fa fa-chevron-circle-right"></i> Atque vero laudantium</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Loat dolot aspree</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="footer-content">
+                    <h4 class="title text-default"><i class="fa fa-search pr-10"></i> Ressources</h4>
+                    <nav class="mb-20">
+                      <ul class="nav nav-pills nav-stacked list-style-icons">
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Vel consequatur</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Provident obcaecati</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Illo perspiciatis</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> acilis maiores</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Enim modi</a></li>
+                      </ul>
+                    </nav>
+                    <h4 class="title text-default"><i class="fa fa-users pr-10"></i> Staff/Faculte</h4>
+                    <nav class="mb-20">
+                      <ul class="nav nav-pills nav-stacked list-style-icons">
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> acilis maiores</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Enim modi</a></li>
+                        <li><a target="_blank" href="http://revovision.ca"><i class="fa fa-chevron-circle-right"></i> Support</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="footer-content">
+                    <h4 class="title text-default"><i class="fa fa-file-text-o pr-10"></i> Admissions</h4>
+                    <nav class="mb-20">
+                      <ul class="nav nav-pills nav-stacked list-style-icons">
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Facilis maiores</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Provident obcaecati</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Vel consequatur</a></li>
+                        <li><a target="_blank" href="http://revovision.ca"><i class="fa fa-chevron-circle-right"></i> Support</a></li>
+                      </ul>
+                    </nav>
+                    <h4 class="title text-default"><i class="fa fa-child pr-10"></i> Etudiants</h4>
+                    <nav class="mb-20">
+                      <ul class="nav nav-pills nav-stacked list-style-icons">
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Illo perspiciatis</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Enim modi</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Privacy</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Vel consequatur</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="footer-content">
+                    <h4 class="title text-default"><i class="fa fa-institution pr-10"></i>Departements</h4>
+                    <nav class="mb-20">
+                      <ul class="nav nav-pills nav-stacked list-style-icons">
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Consectetur adipisicing elit</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Lorem ipsum dolor sit</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Amet culpa</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Repudiandae porro doloribus</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Rerum iure temporibus</a></li>
+                        <li><a target="_blank" href="http://revovision.ca"><i class="fa fa-chevron-circle-right"></i> Atque vero laudantium</a></li>
+                      </ul>
+                    </nav>
+                    <h4 class="title text-default"><i class="fa fa-info-circle pr-10"></i> Informations</h4>
+                    <nav class="mb-20">
+                      <ul class="nav nav-pills nav-stacked list-style-icons">
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Consectetur adipisicing elit</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Lorem ipsum dolor sit</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .footer end -->
 
-</br>
+        <!-- .subfooter start -->
+        <!-- ================ -->
+        <div class="subfooter default-bg">
+          <div class="container">
+            <div class="subfooter-inner">
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-center"><span class="logo-font pr-10">University  College</span> Copyright © 2016 The Project by <a class="link-light" target="_blank" href="http://www.revovision.ca/">REVOVISION</a>. All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .subfooter end -->
 
-<!-- section start -->
-<!-- ================ -->
-<section class="pv-40 dark-translucent-bg background-img-1">
-	<div class="container">
-		<h2 class="title text-center"><strong>LES BENEFICES</strong></h2>
-		<div class="separator"></div>
-		<br>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="feature-box-2 object-non-visible right" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-					<span class="icon light-bg small"><i class="fa fa-arrows"></i></span>
-					<div class="body">
-						<h4 class="title">Responsive Design</h4>
-						<p>Our design is with responsive in mind. Our themes are compatible with various devices.</p>
-						<div class="separator-3"></div>
-					</div>
-				</div>
-				<div class="feature-box-2 object-non-visible right" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-					<span class="icon light-bg small"><i class="icon-megaphone"></i></span>
-					<div class="body">
-						<h4 class="title">Easy to Use</h4>
-						<p>Our design is with responsive in mind. Our themes are compatible with various devices.</p>
-						<div class="separator-3"></div>
-					</div>
-				</div>
-				<div class="feature-box-2 object-non-visible right" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-					<span class="icon light-bg small"><i class="icon-infinity"></i></span>
-					<div class="body">
-						<h4 class="title">Unlimited options and variations</h4>
-						<p>Our design is with responsive in mind. Our themes are compatible with various devices.</p>
-						<div class="separator-3"></div>
-					</div>
-				</div>
-				<br>
-			</div>
-			<div class="col-md-6">
-				<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-					<span class="icon light-bg small"><i class="icon-snow"></i></span>
-					<div class="body">
-						<h4 class="title">Latest Technologies</h4>
-						<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
-						<div class="separator-2"></div>
-					</div>
-				</div>
-				<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-					<span class="icon light-bg small"><i class=" icon-tools"></i></span>
-					<div class="body">
-						<h4 class="title">Deticated Support</h4>
-						<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
-						<div class="separator-2"></div>
-					</div>
-				</div>
-				<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-					<span class="icon light-bg small"><i class="icon-star-empty"></i></span>
-					<div class="body">
-						<h4 class="title">Valid Code</h4>
-						<p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds.</p>
-						<div class="separator-2"></div>
-					</div>
-				</div>
-				<br>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- section end -->
+      </footer>
+      <!-- footer end -->
+       </div>
+    <!-- page-wrapper end -->
+
+    <!-- JavaScript files placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- Jquery and Bootstap core js files -->
+    <script type="text/javascript" src="/plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Modernizr javascript -->
+    <script type="text/javascript" src="/plugins/modernizr.js"></script>
+    <!-- jQuery Revolution Slider  -->
+    <script type="text/javascript" src="/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- Isotope javascript -->
+    <script type="text/javascript" src="/plugins/isotope/isotope.pkgd.min.js"></script>
+    <!-- Magnific Popup javascript -->
+    <script type="text/javascript" src="/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Appear javascript -->
+    <script type="text/javascript" src="/plugins/waypoints/jquery.waypoints.min.js"></script>
+    <!-- Count To javascript -->
+    <script type="text/javascript" src="/plugins/jquery.countTo.js"></script>
+    <!-- Parallax javascript -->
+    <script src="/plugins/jquery.parallax-1.1.3.js"></script>
+    <!-- Contact form -->
+    <script src="/plugins/jquery.validate.js"></script>
+    <!-- Google Maps javascript -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;signed_in=true"></script>
+    <script type="text/javascript" src="/js/google.map.config.js"></script>
+    <!-- Background Video -->
+    <script src="/plugins/vide/jquery.vide.js"></script>
+    <!-- Owl carousel javascript -->
+    <script type="text/javascript" src="/plugins/owl-carousel/owl.carousel.js"></script>
+    <!-- Pace javascript -->
+    <script type="text/javascript" src="/plugins/pace/pace.min.js"></script>
+    <!-- SmoothScroll javascript -->
+    <script type="text/javascript" src="/plugins/jquery.browser.js"></script>
+    <script type="text/javascript" src="/plugins/SmoothScroll.js"></script>
+    <!-- Initialization of Plugins -->
+    <script type="text/javascript" src="/js/template.js"></script>
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="/js/custom.js"></script>
+
+  </body>
+</html>
