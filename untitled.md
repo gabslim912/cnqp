@@ -17,5 +17,8 @@ objectifs:
   description: Elle sert de liaison entre les entreprises utilisatrices de main d’œuvre
     et les formés du CNQP.
   image: "/uploads/service-4.jpg"
+description: La relance de la Cellule d’Appui à l’Insertion Professionnelle du CNQP
+  (CAIPRO/CNQP) s’inscrit dans le cadre de la nouvelle politique définie par la  Direction
+  Générale.
 
 ---
