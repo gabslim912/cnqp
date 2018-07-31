@@ -28,7 +28,7 @@ diplomes:
 - BEP
 - CAP
 - CPA
-layout: 'home'
+layout: ''
 permalink: "/"
 
 ---
