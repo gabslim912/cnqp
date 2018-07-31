@@ -11,10 +11,15 @@ fields:
   name: permalink
   label: permalink
   default: "/insertion/"
+  hidden: true
 - type: text
   name: layout
   label: layout
   default: insertion
+  hidden: true
+- type: textarea
+  name: description
+  label: description
 - type: file
   name: image
   label: image
