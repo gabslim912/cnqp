@@ -39,3 +39,4 @@ fields:
     label: image
 pages:
 - untitled.md
+- _departements/electronique.md
