@@ -41,4 +41,5 @@ fields:
   description: Insérer une image de taille
 pages:
 - _departements/electronique.md
+- _departements/solaire.md
 - _departements/mecanique-automobile.md
