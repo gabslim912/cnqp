@@ -1,13 +1,20 @@
 <head>
+    {% include google-analytics.html %}
     <meta charset="utf-8">
-    <title>Education - Theme par Revovision</title>
-    <meta name="description" content="Education - Theme par Revovision">
-    <meta name="author" content="revovision.ca">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.title != undefined %}{{ page.description | escape }}{% else %}{{ site.meta_description | escape }}{% endif %}">
+    <link rel="canonical" href="{{ site.production_url }}{{ page.url | replace:'index.html',''}}">
+    {% if page.description %}
+        <meta name="description" content="{{ page.description | escape }}">
+    {% else %}
+          <meta name="description" content="{{ site.meta_description | escape }}">
+    {% endif %}
+    <meta name="author" content="Revovision Inc.">
 
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Favicon -->
+        <!-- Favicon -->
     <link rel="shortcut icon" href="/images/favicon.ico">
 
     <!-- Web Fonts -->
