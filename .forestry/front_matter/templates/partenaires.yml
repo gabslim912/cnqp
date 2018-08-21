@@ -12,5 +12,6 @@ fields:
   label: image
   description: Logo de l'entreprise
 pages:
+- partenaires/3fpt.md
 - partenaires/ama.md
 - partenaires/mtoa.md
