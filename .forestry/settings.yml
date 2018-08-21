@@ -5,26 +5,26 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: partenaires
-  label: Partenaires
-  create: all
-  match: "**/*"
-- type: directory
   path: _departements
   label: Departements
   create: all
   match: "**/*"
 - type: directory
+  path: partenaires
+  label: Partenaires
+  create: all
+  match: "**/*"
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: directory
   path: _uploads
   label: Uploads
   create: all
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
