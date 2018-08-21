@@ -68,4 +68,5 @@ fields:
   name: bars
   label: bars
 pages:
+- partenaires/mtoa.md
 - a-propos.md
