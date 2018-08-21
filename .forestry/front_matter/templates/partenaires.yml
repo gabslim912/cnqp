@@ -12,6 +12,7 @@ fields:
   label: image
   description: Logo de l'entreprise
 pages:
+- partenaires/somair.md
 - partenaires/grande-cote-operations.md
 - partenaires/dakarnave.md
 - partenaires/armee-de-l-air.md
