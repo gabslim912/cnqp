@@ -1,0 +1,13 @@
+---
+label: partenaires
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+  description: Nom de l'entreprise
+- type: file
+  name: image
+  label: image
+  description: Logo de l'entreprise
