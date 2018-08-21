@@ -12,6 +12,7 @@ fields:
   label: image
   description: Logo de l'entreprise
 pages:
+- partenaires/armee-de-l-air.md
 - partenaires/3fpt.md
 - partenaires/ama.md
 - partenaires/mtoa.md
