@@ -10,6 +10,5 @@ membres: []
 avantages: []
 bars: []
 image: "/uploads/logo_3fpt.png"
-published: false
 
 ---
