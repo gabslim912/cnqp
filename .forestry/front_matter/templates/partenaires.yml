@@ -11,12 +11,3 @@ fields:
   name: image
   label: image
   description: Logo de l'entreprise
-pages:
-- partenaires/office-national-de-la-formation-professionnelle.md
-- partenaires/somair.md
-- partenaires/grande-cote-operations.md
-- partenaires/dakarnave.md
-- partenaires/armee-de-l-air.md
-- partenaires/3fpt.md
-- partenaires/ama.md
-- partenaires/mtoa.md
