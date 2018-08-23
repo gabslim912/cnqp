@@ -12,6 +12,9 @@ collections:
     title: departements
     output: true
     layout: departement
+  partenaires:
+    title: partenaires
+    output: true
 email: contact@cnqp.com
 tel: 33 832 60 24 - 33 832 39 79
 adresse: CNQP – Rocade Fann Bel-Air – Route de la SOSETRA

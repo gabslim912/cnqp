@@ -1,0 +1,28 @@
+<!-- section -->
+			<!-- ================ -->
+			<section class="pv-30 light-gray-bg padding-bottom-clear">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h2 class="text-center">Nos <strong>Partenaires</strong></h2>
+							<div class="separator"></div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="space-bottom">
+					
+					<div class="container">
+						<div class="clients-container">
+							<div class="clients">
+								{% for partenaire in site.partenaires %}
+								<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+									<a href="#"><img src="{{ partenaire.image }}" alt=""></a>
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section end -->
