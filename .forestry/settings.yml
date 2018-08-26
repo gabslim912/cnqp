@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: partenaires
+  path: _partenaires
   label: Partenaires
   create: all
   match: "**/*"
