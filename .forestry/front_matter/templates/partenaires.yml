@@ -11,3 +11,5 @@ fields:
   name: image
   label: image
   description: Logo de l'entreprise
+pages:
+- partenaires/mtoaq.md
