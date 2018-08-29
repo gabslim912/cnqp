@@ -23,3 +23,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- _posts/resultats-des-examens-de-fin-d-annee-2018.md
