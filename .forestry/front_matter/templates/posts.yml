@@ -1,0 +1,25 @@
+---
+label: posts
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+  default: post
+  hidden: true
+- type: textarea
+  name: mini_desc
+  label: mini desc
+  config:
+    required: true
+- type: text
+  name: auteur
+  label: auteur
+  default: La rédaction
+- type: file
+  name: image
+  label: image
