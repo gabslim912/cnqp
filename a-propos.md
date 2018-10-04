@@ -5,14 +5,14 @@ layout: about
 date: 2018-07-30 22:40:09 +0000
 mini_desc: Le CNQP situé à Dakar est un centre de formation dépendant du ministère
   de la formation professionnelle, de l'apprentissage et de l'artisanat.
-background: "/uploads/education-slider.jpg"
+background: "/uploads/42985509_320004245474175_65756619316658176_n.jpg"
 sliders:
 - title: L'éducation c'est notre force
-  image: "/uploads/education-slider-2.jpg"
+  image: "/uploads/43007659_337054923731171_3456033786498646016_n.jpg"
 - title: Faites nous confiance
-  image: "/uploads/education-slider.jpg"
+  image: "/uploads/42985509_320004245474175_65756619316658176_n.jpg"
 - title: Notre réussite est la votre
-  image: "/uploads/education-about.jpg"
+  image: "/uploads/43007713_336285226933247_4994996727015538688_n.jpg"
 membres:
 - nom: Prenom Nom
   poste: Poste occupé
