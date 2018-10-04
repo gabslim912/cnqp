@@ -2,12 +2,6 @@
 title: Acceuil
 date: 2018-07-30 19:56:55 +0000
 sliders:
-- title: Ce qui nous définit et nous motive
-  link: "/about"
-  description: Un vaste processus de consultation a permis de dégager les valeurs
-    considérées comme fondamentales et qui reflétaient adéquatement la culture de
-    l’établissement
-  image: "/uploads/education-slider.jpg"
 - title: Notre vision a long terme
   link: "/about"
   description: Faire du CNQP, la clé de la formation professionnelle au Sénégal, par
@@ -20,6 +14,12 @@ sliders:
     continue des agents en activité et de jouer le rôle de conseil en matière de formation
     professionnelle auprès des entreprises.
   image: "/uploads/43007713_336285226933247_4994996727015538688_n.jpg"
+- title: Ce qui nous définit et nous motive
+  link: "/about"
+  description: Un vaste processus de consultation a permis de dégager les valeurs
+    considérées comme fondamentales et qui reflétaient adéquatement la culture de
+    l’établissement
+  image: "/uploads/education-slider.jpg"
 image_1: "/uploads/43110262_310129879718923_7967312957128310784_n.jpg"
 diplomes:
 - BTS
