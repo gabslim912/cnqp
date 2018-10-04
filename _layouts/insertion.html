@@ -25,7 +25,7 @@
       {% include header.html %}
 		<!-- banner start -->
 		<!-- ================ -->
-		<div class="banner default-translucent-bg" style="background-image:url('{{ page.image }}');background-position:50% 0;">
+		<div class="banner parallax dark-translucent-bg" style="background-image:url('{{ page.image }}');background-position:50% 0;">
 			<!-- breadcrumb start -->
 			<!-- ================ -->
 			<div class="breadcrumb-container">
@@ -210,7 +210,7 @@
 										<h2>Profitez de tous ces avantages</h2>
 									</div>
 									<div class="col-sm-4">
-										<p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">Inscription<i class="fa fa-sign-in pl-20"></i></a></p>
+										<p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">Inscription CI<i class="fa fa-sign-in pl-20"></i></a></p>
 									</div>
 								</div>
 							</div>
@@ -231,92 +231,57 @@
           <div class="container">
             <div class="footer-inner">
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-8">
                   <div class="footer-content">
-                    <h2 class="title logo-font text-default">Le CNQP</h2>
-                    <div class="separator-2"></div>
-                    <nav class="mb-20">
-                      <ul class="nav nav-pills nav-stacked list-style-icons">
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Lorem ipsum dolor sit</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i>  Consectetur adipisicing elit</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Rerum iure temporibus</a></li>
-                      </ul>
-                    </nav>
-                    <h4 class="title text-default"><i class="fa fa-wechat pr-10"></i> Consectetur adipisicing</h4>
-                    <nav class="mb-20">
-                      <ul class="nav nav-pills nav-stacked list-style-icons">
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Repudiandae porro doloribus</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Amet culpa</a></li>
-                        <li><a target="_blank" href="http://revovision.ca"><i class="fa fa-chevron-circle-right"></i> Atque vero laudantium</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Loat dolot aspree</a></li>
-                      </ul>
-                    </nav>
+                    <h1 class="title logo-font text-default">Le CNQP</h1>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <p>{{ site.description }}</p>
+                        <ul class="social-links circle animated-effect-1">
+                          <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                          <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                          <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                        <ul class="list-icons">
+                          <li><i class="fa fa-map-marker pr-10 text-default"></i> {{ site.adresse }}</li>
+                          <li><i class="fa fa-phone pr-10 text-default"></i> {{ site.tel }}</li>
+                          <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o pr-10"></i>{{ site.email }}</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <div id="map-canvas"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                   <div class="footer-content">
-                    <h4 class="title text-default"><i class="fa fa-search pr-10"></i> Ressources</h4>
-                    <nav class="mb-20">
-                      <ul class="nav nav-pills nav-stacked list-style-icons">
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Vel consequatur</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Provident obcaecati</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Illo perspiciatis</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> acilis maiores</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Enim modi</a></li>
-                      </ul>
-                    </nav>
-                    <h4 class="title text-default"><i class="fa fa-users pr-10"></i> Staff/Faculte</h4>
-                    <nav class="mb-20">
-                      <ul class="nav nav-pills nav-stacked list-style-icons">
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> acilis maiores</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Enim modi</a></li>
-                        <li><a target="_blank" href="http://revovision.ca"><i class="fa fa-chevron-circle-right"></i> Support</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="footer-content">
-                    <h4 class="title text-default"><i class="fa fa-file-text-o pr-10"></i> Admissions</h4>
-                    <nav class="mb-20">
-                      <ul class="nav nav-pills nav-stacked list-style-icons">
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Facilis maiores</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Provident obcaecati</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Vel consequatur</a></li>
-                        <li><a target="_blank" href="http://revovision.ca"><i class="fa fa-chevron-circle-right"></i> Support</a></li>
-                      </ul>
-                    </nav>
-                    <h4 class="title text-default"><i class="fa fa-child pr-10"></i> Etudiants</h4>
-                    <nav class="mb-20">
-                      <ul class="nav nav-pills nav-stacked list-style-icons">
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Illo perspiciatis</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Enim modi</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Privacy</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Vel consequatur</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="footer-content">
-                    <h4 class="title text-default"><i class="fa fa-institution pr-10"></i>Departements</h4>
-                    <nav class="mb-20">
-                      <ul class="nav nav-pills nav-stacked list-style-icons">
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Consectetur adipisicing elit</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Lorem ipsum dolor sit</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Amet culpa</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Repudiandae porro doloribus</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Rerum iure temporibus</a></li>
-                        <li><a target="_blank" href="http://revovision.ca"><i class="fa fa-chevron-circle-right"></i> Atque vero laudantium</a></li>
-                      </ul>
-                    </nav>
-                    <h4 class="title text-default"><i class="fa fa-info-circle pr-10"></i> Informations</h4>
-                    <nav class="mb-20">
-                      <ul class="nav nav-pills nav-stacked list-style-icons">
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Consectetur adipisicing elit</a></li>
-                        <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Lorem ipsum dolor sit</a></li>
-                      </ul>
-                    </nav>
+                    <h2 class="title">Contactez nous</h2>
+                    <br>
+                    <div class="alert alert-success hidden" id="MessageSent2">
+                      We have received your message, we will contact you very soon.
+                    </div>
+                    <div class="alert alert-danger hidden" id="MessageNotSent2">
+                      Oops! Something went wrong please refresh the page and try again.
+                    </div>
+                    <form role="form" id="footer-form" class="margin-clear">
+                      <div class="form-group has-feedback">
+                        <label class="sr-only" for="name2">Nom</label>
+                        <input type="text" class="form-control" id="name2" placeholder="Name" name="name2">
+                        <i class="fa fa-user form-control-feedback"></i>
+                      </div>
+                      <div class="form-group has-feedback">
+                        <label class="sr-only" for="email2">Email</label>
+                        <input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2">
+                        <i class="fa fa-envelope form-control-feedback"></i>
+                      </div>
+                      <div class="form-group has-feedback">
+                        <label class="sr-only" for="message2">Message</label>
+                        <textarea class="form-control" rows="6" id="message2" placeholder="Message" name="message2"></textarea>
+                        <i class="fa fa-pencil form-control-feedback"></i>
+                      </div>
+                      <input type="submit" value="Envoyer" class="margin-clear submit-button btn btn-default">
+                    </form>
                   </div>
                 </div>
               </div>
