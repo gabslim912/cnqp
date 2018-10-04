@@ -12,15 +12,15 @@ sliders:
   link: "/about"
   description: Faire du CNQP, la clé de la formation professionnelle au Sénégal, par
     un enseignement de qualité en parfaite adéquation avec les besoins de l’entreprise
-  image: "/uploads/education-slider.jpg"
+  image: "/uploads/42985509_320004245474175_65756619316658176_n.jpg"
 - title: Notre raison d’être
   link: "/about"
   description: Le CNQP a pour mission principale de préparer à l’emploi les jeunes
     issus du système scolaire sans qualification professionnelle, d’assurer la formation
     continue des agents en activité et de jouer le rôle de conseil en matière de formation
     professionnelle auprès des entreprises.
-  image: "/uploads/education-slider.jpg"
-image_1: "/uploads/education-about.jpg"
+  image: "/uploads/43007713_336285226933247_4994996727015538688_n.jpg"
+image_1: "/uploads/43110262_310129879718923_7967312957128310784_n.jpg"
 diplomes:
 - BTS
 - BT
@@ -28,7 +28,7 @@ diplomes:
 - BEP
 - CAP
 - CPA
-layout: 'home'
+layout: home
 permalink: "/"
 
 ---
