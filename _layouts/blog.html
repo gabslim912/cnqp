@@ -41,19 +41,18 @@ layout: default
 									<div class="col-md-6">
 										<div class="overlay-container">
 											<img src="{{ post.image }}" alt="{{ post.title }}">
-											<a class="overlay-link" href="#"><i class="fa fa-link"></i></a>
+											<a class="overlay-link" href="{{ post.url }}"><i class="fa fa-link"></i></a>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<header>
-											<h2><a href="#">{{ post.title }}</a></h2>
+											<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 											<div class="post-info">
 												<span class="post-date">
 													<i class="icon-calendar"></i>
 													<span class="day">{{ post.date }}</span>
 												</span>
-												<span class="submitted"><i class="icon-user-1"></i> by <a href="#">{{ post.auteur }}</a></span>
-												<span class="comments"><i class="icon-chat"></i> <a href="#"> comments</a></span>
+												<span class="submitted"><i class="icon-user-1"></i> {{ post.auteur }}</span>
 											</div>
 										</header>
 										<div class="blogpost-content">
