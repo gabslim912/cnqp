@@ -27,7 +27,7 @@ diplomes:
 - CQP
 - BEP
 - CAP
-- CPA
+- CS
 layout: home
 permalink: "/"
 
