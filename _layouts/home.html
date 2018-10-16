@@ -79,9 +79,42 @@ layout: default
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h3 class="title text-center">Etudier au <span class="text-default">CNQP</span></h3>
+              <h3 class="title text-center">Se former au <span class="text-default">CNQP</span></h3>
               <div class="separator"></div>
               <p class="lead text-center">Le CNQP offre plusieurs types de formation dans differents domaine pouvant aboutir aux diplomes d'Etat énumérés ci-dessous</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            {% for diplome in page.diplomes %}
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <div class="image-box shadow text-center mb-20">
+                <div class="overlay-container overlay-visible">
+                  <img src="/images/education-4.jpg" alt="">
+                  <a href="#" target="blank" class="overlay-link"><i class="fa fa-link"></i></a>
+                  <div class="overlay-bottom">
+                    <div class="text">
+                      <p class="lead margin-clear mobile-visible">{{ diplome }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      <!-- section end -->
+       <!-- section departements start -->
+      <!-- ================ -->
+      <section class="section pv-40 light-gray-bg clearfix">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h3 class="title text-center">Formation continue <span class="text-default">& prestations</span></h3>
+              <div class="separator"></div>
+              <p class="lead text-center">L'inscription s'effectue sous couvert d'une entreprise, d'un organisme financier ou a titre individuel</p>
             </div>
           </div>
         </div>
