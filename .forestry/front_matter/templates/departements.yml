@@ -39,6 +39,10 @@ fields:
   name: image
   label: image principale
   description: Insérer une image de taille
+- type: text
+  name: layout
+  label: layout
+  default: departement
 pages:
 - _departements/electrotechnique.md
 - _departements/electronique.md
