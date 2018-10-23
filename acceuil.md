@@ -13,7 +13,7 @@ sliders:
     issus du système scolaire sans qualification professionnelle, d’assurer la formation
     continue des agents en activité et de jouer le rôle de conseil en matière de formation
     professionnelle auprès des entreprises.
-  image: "/uploads/43007713_336285226933247_4994996727015538688_n.jpg"
+  image: "/uploads/slide_2.jpg"
 - title: Ce qui nous définit et nous motive
   link: "/about"
   description: Un vaste processus de consultation a permis de dégager les valeurs
