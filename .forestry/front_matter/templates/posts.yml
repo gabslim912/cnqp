@@ -1,7 +1,6 @@
 ---
 label: posts
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -24,5 +23,5 @@ fields:
   name: image
   label: image
 pages:
-- _posts/2018-08-29-resultats-des-examens-de-fin-d-annee-2018.md
 - _posts/2018-08-29-arrivee-de-la-fibre-optique.md
+- _posts/2018-08-29-resultats-des-examens-de-fin-d-annee-2018.md
