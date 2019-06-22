@@ -118,7 +118,7 @@ layout: default
 												</a>
 											</h4>
 										</div>
-										<div id="collapseOne" class="panel-collapse collapse in">
+										<div id="collapseOne" class="panel-collapse collapse out">
 											<div class="panel-body">
 												{{ avantage.description}}
 											</div>
@@ -131,7 +131,7 @@ layout: default
 							<!-- progress bars start -->
 							<!-- ================ -->
 							<div class="col-md-6">
-								{% for bar in page.bars %}
+								{% for bar in page.bars limit:4 %}
 								<div class="progress mt-20 style-1">
 									<span class="text"></span>
 									<div class="progress-bar progress-bar-default" data-animate-width="100%">

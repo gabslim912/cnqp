@@ -1,54 +1,10 @@
 ---
-layout: default
+layout: default-home
 ---
 
 <!-- banner start -->
       <!-- ================ -->
-      <div class="banner clearfix">
-        <!-- slideshow start -->
-        <!-- ================ -->
-        <div class="slideshow">
-          
-          <!-- slider revolution start -->
-          <!-- ================ -->
-          <div class="slider-banner-container">
-            <div class="slider-banner-fullwidth">
-              <ul class="slides">
-                {% for slider in page.sliders %}
-                <!-- slide 1 start -->
-                <!-- ================ -->
-                <li data-transition="fade" data-slotamount="4" data-masterspeed="500" data-saveperformance="on" data-title="">
-                
-                <!-- main image -->
-                <img src="{{ slider.image }}" alt="slidebg1" data-bgrepeat="no-repeat" data-bgfit="cover" style="background-position: 80% 80%;">
-                
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption fade fadeout dark-translucent-bg caption-box text-left"
-                  style="background-color: rgba(0, 0, 0, 0.45);"
-                  data-x="right"
-                  data-y="bottom" 
-                  data-speed="500"
-                  data-start="1300"
-                  data-easing="easeOutQuad"
-                  data-endspeed="600">
-                  <h2 class="title"><a href="#" class="link-light">{{ slider.title }}</a></h2>
-                  <div class="separator-2 light clearfix hidden-xs"></div>
-                  <p class="hidden-xs">{{ slider.description }}</p>
-                  <div class="text-right hidden-xs"><a class="btn btn-small btn-default margin-clear" href="{{ slider.link }}" target="blank">En savoir plus</a></div>
-                </div>
-
-                </li>
-                <!-- slide 1 end -->
-                {% endfor %}
-              </ul>
-              <div class="tp-bannertimer"></div>
-            </div>
-          </div>
-          <!-- slider revolution end -->
-
-        </div>
-        <!-- slideshow end -->
-      </div>
+      {% include homeslider1.html %}
       <!-- banner end -->
 
       <div id="page-start"></div>

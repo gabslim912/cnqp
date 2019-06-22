@@ -1,90 +1,96 @@
 <!-- header-container start -->
-      <div class="header-container">
-        
-        <!-- header-top start -->
-        <!-- classes:  -->
-        <!-- "dark": dark version of header top e.g. class="header-top dark" -->
-        <!-- "colored": colored version of header top e.g. class="header-top colored" -->
-        <!-- ================ -->
-        <div class="header-top  colored">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-2 col-sm-5">
-                <!-- header-top-first start -->
-                <!-- ================ -->
-                <div class="header-top-first clearfix">
-                  <div id="logo" class="logo">
-                    <a href="/"><img id="logo_img" src="/images/logo_rep_senegal.png" alt="Fomer-Outiller-Inserer" width="370px"></a>
-                  </div>
-
-                </div>
-                <!-- header-top-first end -->
-              </div>
-              <div class="col-xs-10 col-sm-7">
-
-                <!-- header-top-second start -->
-                <!-- ================ -->
-                <div id="header-top-second"  class="clearfix text-right">
-                  <nav>
-                    <ul class="list-inline">
-                      <li><a href="/admin" class="link-light" target="blank"><i class="fa fa-child pr-5"></i>Connexion</a></li>
-                      <!--<li class="hidden-sm hidden-xs"><a class="link-light" href="#"><i class="fa fa-info-circle pr-5"></i>Inscription CI</a></li>-->
-                      <li class="hidden-sm hidden-xs"><strong class="pl-5">Nous joindre:</strong> {{ site.tel }}</li>
-                    </ul>
-                  </nav>
-                </div>
-                <!-- header-top-second end -->
-              </div>
+<div class="header-container">
+  
+  <!-- header-top start -->
+  <!-- classes:  -->
+  <!-- "dark": dark version of header top e.g. class="header-top dark" -->
+  <!-- "colored": colored version of header top e.g. class="header-top colored" -->
+  <!-- ================ -->
+  <div class="header-top colored">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2 col-sm-5">
+          <!-- header-top-first start -->
+          <!-- ================ -->
+          <div class="header-top-first clearfix">
+            <div id="logo" class="logo">
+              <a href="/"><img id="logo_img" src="/images/logo_rep_senegal.png" alt="République du Sénégal" width="330px"></a>
             </div>
+
           </div>
+          <!-- header-top-first end -->
         </div>
-        <!-- header-top end -->
-        
-        <!-- header start -->
-        <!-- classes:  -->
-        <!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
-        <!-- "dark": dark version of header e.g. class="header dark clearfix" -->
-        <!-- "full-width": mandatory class for the full-width menu layout -->
-        <!-- "centered": mandatory class for the centered logo layout -->
-        <!-- ================ --> 
-        <header class="header centered fixed    clearfix">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <!-- header-left start -->
-                <!-- ================ -->
-                <div class="header-left clearfix">
+        <div class="col-xs-10 col-sm-7">
 
-                  <!-- logo -->
-                  <div id="logo" class="logo">
-                    <a href="/"><img id="logo_img" src="/images/logo_cnqp.png" alt="CNQP" width="250px"></a>
-                  </div>
-
-                  
-                  
+          <!-- header-top-second start -->
+          <!-- ================ -->
+          <div id="header-top-second"  class="clearfix text-right">
+            <nav>
+              <ul class="list-inline">
+                
+              <li><i class="fa fa-phone pr-5 pl-10"></i>{{ site.tel }}</li>
+              <li><i class="fa fa-envelope-o pr-5 pl-10"></i> {{ site.email }}</li>
+                <div class="btn-group">
+                  <a href="/admin" class="btn btn-default btn-sm" target="blank"><i class="fa fa-user pr-10"></i> Se connecter</a>
                 </div>
-                <!-- header-left end -->
+                
+                <!--<li class="hidden-sm hidden-xs"><a class="link-light" href="#"><i class="fa fa-info-circle pr-5"></i>Inscription CI</a></li>-->
+                
+              </ul>
+            </nav>
+          </div>
+          <!-- header-top-second end -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header-top end -->
+  
+  <!-- header start -->
+  <!-- classes:  -->
+  <!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
+  <!-- "dark": dark version of header e.g. class="header dark clearfix" -->
+  <!-- "full-width": mandatory class for the full-width menu layout -->
+  <!-- "centered": mandatory class for the centered logo layout -->
+  <!-- ================ --> 
+  <header class="header  fixed fixed-before  clearfix">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <!-- header-left start -->
+          <!-- ================ -->
+          <div class="header-left clearfix">
 
-              </div>
-              <div class="col-md-12">
-          
-                <!-- header-right start -->
-                <!-- ================ -->
-                <div class="header-right clearfix">
+            <!-- logo -->
+            <div id="logo" class="logo">
+              <a href="/"><img id="logo_img" src="/images/logo_cnqp.png" alt="CNQP" width="auto"></a>
+            </div>
+
+            
+            
+          </div>
+          <!-- header-left end -->
+
+        </div>
+        <div class="col-md-10">
                   
-                <!-- main-navigation start -->
-                <!-- classes: -->
-                <!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
-                <!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
-                <!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
-                <!-- ================ -->
-                <div class="main-navigation  animated with-dropdown-buttons">
+          <!-- header-right start -->
+          <!-- ================ -->
+          <div class="header-right clearfix">
+            
+          <!-- main-navigation start -->
+          <!-- classes: -->
+          <!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
+          <!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
+          <!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
+          <!-- ================ -->
+          <div class="main-navigation  animated with-dropdown-buttons">
 
-                  <!-- navbar start -->
-                  <!-- ================ -->
-                  <nav class="navbar navbar-default" role="navigation">
-                    <div class="container-fluid">
+            <!-- navbar start -->
+            <!-- ================ -->
+            <nav class="navbar navbar-default" role="navigation">
+              <div class="container-fluid">
 
                       <!-- Toggle get grouped for better mobile display -->
                       <div class="navbar-header">
@@ -110,7 +116,7 @@
                           <!-- mega-menu end -->
                           <!-- mega-menu start -->
                           <li class="dropdown  mega-menu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Formations et prestations</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Formations</a>
                             <ul class="dropdown-menu">
                               <li>
                                 <div class="row">
@@ -157,7 +163,7 @@
                             <a href="/blog">Actualités</a>                          
                           </li>
                           <li>
-                            <a href="/insertion">Cellule d'insertion</a>                          
+                            <a href="/insertion">Insertion</a>                          
                           </li>
                             
                         
@@ -205,19 +211,19 @@
                       </div>
 
                     </div>
-                  </nav>
-                  <!-- navbar end -->
+            </nav>
+            <!-- navbar end -->
 
-                </div>
-                <!-- main-navigation end -->
-                </div>
-                <!-- header-right end -->
-          
-              </div>
-            </div>
           </div>
-          
-        </header>
-        <!-- header end -->
+          <!-- main-navigation end -->
+          </div>
+          <!-- header-right end -->
+
+        </div>
       </div>
-      <!-- header-container end -->
+    </div>
+    
+  </header>
+  <!-- header end -->
+</div>
+<!-- header-container end -->

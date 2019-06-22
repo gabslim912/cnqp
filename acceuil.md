@@ -5,19 +5,19 @@ sliders:
 - title: Notre vision a long terme
   link: "/about"
   description: Faire du CNQP, la clé de la formation professionnelle au Sénégal, par
-    un enseignement de qualité en parfaite adéquation avec les besoins de l’entreprise
+    un enseignement <br>de qualité en parfaite adéquation avec les besoins de l’entreprise
   image: "/uploads/slide_11.jpg"
 - title: Notre raison d’être
   link: "/about"
   description: Le CNQP a pour mission principale de préparer à l’emploi les jeunes
-    issus du système scolaire sans qualification professionnelle, d’assurer la formation
-    continue des agents en activité et de jouer le rôle de conseil en matière de formation
+    issus du système scolaire sans qualification <br>professionnelle, d’assurer la formation
+    continue des agents en activité et de jouer le rôle de conseil en matière<br>de formation
     professionnelle auprès des entreprises.
   image: "/uploads/slide_2.jpg"
-- title: Ce qui nous définit et nous motive
+- title: Ce qui nous motive
   link: "/about"
   description: Un vaste processus de consultation a permis de dégager les valeurs
-    considérées comme fondamentales et qui reflétaient adéquatement la culture de
+    considérées comme fondamentales <br>et qui reflétaient adéquatement la culture de
     l’établissement
   image: "/uploads/education-slider.jpg"
 image_1: "/uploads/43110262_310129879718923_7967312957128310784_n.jpg"
