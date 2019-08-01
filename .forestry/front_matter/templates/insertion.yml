@@ -37,4 +37,5 @@ fields:
     name: image
     label: image
 pages:
+- _departements/mecanique-general.md
 - untitled.md
