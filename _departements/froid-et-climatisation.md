@@ -14,7 +14,7 @@ diplomes:
   nom_complet: ''
   description: ''
   mini_description: ''
-image: ''
+image: "/uploads/froid.JPG"
 published: false
 
 ---
