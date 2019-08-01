@@ -5,6 +5,5 @@ layout: insertion
 description: ''
 image: ''
 objectifs: []
-published: false
 
 ---
