@@ -4,6 +4,10 @@ title: STRUCTURES METALLIQUES
 mini_desc: ''
 matieres_com: []
 diplomes:
+- nom_diplome: CAP
+  nom_complet: Certificat d'Aptitude Professionnelle
+  description: ''
+  mini_description: ''
 - nom_diplome: CQP
   nom_complet: Certificat d'Aptitude Professionnelle
   description: ''
