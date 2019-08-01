@@ -20,6 +20,6 @@ diplomes:
   nom_complet: Brevet de Technicien
   description: ''
   mini_description: ''
-image: ''
+image: "/uploads/43007659_337054923731171_3456033786498646016_n.jpg"
 
 ---
