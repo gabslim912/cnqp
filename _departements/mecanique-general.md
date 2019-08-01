@@ -1,9 +1,9 @@
 ---
-title: MECANIQUE GENERAL
+title: MECANIQUE GENERALE
 permalink: "/insertion/"
 layout: insertion
 description: ''
-image: ''
+image: "/uploads/fabméca.JPG"
 objectifs: []
 
 ---
