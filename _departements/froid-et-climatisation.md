@@ -15,6 +15,5 @@ diplomes:
   description: ''
   mini_description: ''
 image: "/uploads/froid.JPG"
-published: false
 
 ---
