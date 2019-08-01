@@ -43,6 +43,7 @@ fields:
   label: layout
   default: departement
 pages:
+- _departements/froid-et-climatisation.md
 - _departements/mecanique-automobile.md
 - _departements/electrotechnique.md
 - _departements/electronique.md
