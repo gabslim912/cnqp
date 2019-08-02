@@ -43,6 +43,7 @@ fields:
   label: layout
   default: departement
 pages:
+- _departements/menuiserie-et-bois.md
 - _departements/menuiserie-bois.md
 - _departements/batiment.md
 - _departements/maintenance-electronique-et-informatique.md
