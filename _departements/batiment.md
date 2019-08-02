@@ -1,7 +1,11 @@
 ---
 layout: departement
 title: BATIMENT
-mini_desc: ''
+mini_desc: 'Le titulaire d’un diplôme en bâtiment et construction réalise, à partir
+  de directives sur des chantiers de constructions neuves de rénovations ou de réhabilitation,
+  l’ensemble des travaux du gros œuvre dans les secteurs suivants : constructions
+  de maisons individuelles, constructions de bâtiments divers, travaux de maçonnerie
+  générale, dessin bâtiment manuel, dessin assisté à l’ordinateur...'
 matieres_com: []
 diplomes:
 - nom_diplome: BT
