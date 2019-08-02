@@ -4,7 +4,7 @@ title: MAINTENANCE ELECTRONIQUE ET INFORMATIQUE
 mini_desc: ''
 matieres_com: []
 diplomes: []
-image: ''
+image: "/uploads/elecinfo.JPG"
 published: false
 
 ---
