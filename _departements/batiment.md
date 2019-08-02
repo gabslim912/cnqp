@@ -13,7 +13,7 @@ diplomes:
   description: ''
   mini_description: ''
 - nom_diplome: CAP
-  nom_complet: Certificat d'aptitude Professionnelle
+  nom_complet: Certificat d'Aptitude Professionnelle
   description: ''
   mini_description: ''
 image: ''
