@@ -25,7 +25,7 @@ diplomes:
     \ s’élèvent à 265.000F CFA /an ou payables en 8 tranches. \n\n- Pour les auditeurs
     étrangers, les frais de scolarité  s’élèvent à 295.000F CFA /an ou payables en
     8 tranches \n\nPrix de la blouse: 5000F CFA.\nDémarrage des inscriptions : aout
-    \nDébut des cours : novembre\n\n"
+    \nDébut des cours : novembre\n\n\n"
   mini_description: ''
 - nom_diplome: BEP
   nom_complet: Brevet d'étude professionnelle
