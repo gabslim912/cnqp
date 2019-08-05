@@ -10,6 +10,10 @@ mini_desc: "-\tL' Electromécanicien  interviendra principalement sur la partie 
   de fourniture d’équipements.\n"
 matieres_com: []
 diplomes:
+- nom_diplome: BT
+  nom_complet: Brevet de Technicien
+  description: ''
+  mini_description: ''
 - nom_diplome: BTS
   nom_complet: Brevet de Technicien Supérieur
   description: ''
