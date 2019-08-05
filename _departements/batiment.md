@@ -17,23 +17,15 @@ diplomes:
     de BAC vierge.\nDurée de la formation :\n2ans pour les titulaires du BEP (dans
     la même spécialité) et 3ans pour les titulaires du BFEM.\n\n(COURS DU JOUR: lundi
     au vendredi 16h - 20h)\nFrais de scolarité: \n- Pour les auditeurs sénégalais,
-    les frais de scolarité  s’élèvent à 370.000F CFA /an ou payables en 8 tranches
-    \n1e Versement : 55.000F CFA \n2e Versement : octobre  45.000FCFA .\n3e Versement
-    : novembre  45.000FCFA .\nAinsi de suite jusqu’au … 8e Versement au mois d’avril.\n-
-    Pour les auditeurs étrangers, les frais de scolarité  s’élèvent à 395.000F CFA
-    /an ou payables en 8 tranches \n1e Versement : 45.000F CFA \n2e Versement : octobre
-    \ 50.000FCFA .\n3e Versement : novembre  50.000FCFA .\nAinsi de suite jusqu’au
-    … 8e Versement au mois d’avril.\nPrix de la blouse: 5000F CFA.\nDémarrage des
-    inscriptions : aout \nDébut des cours : octobre\n\nFrais de scolarité: (COURS
-    DU SOIR: lundi au vendredi 16h - 20h et samedi 08h - 16h )\n- Pour les auditeurs
-    sénégalais, les frais de scolarité  s’élèvent à 265.000F CFA /an ou payables en
-    8 tranches \n1e Versement : 55.000F CFA \n2e Versement : octobre  30.000FCFA .\n3e
-    Versement : novembre  30.000FCFA .\nAinsi de suite jusqu’au … 8e Versement au
-    mois d’avril.\n- Pour les auditeurs étrangers, les frais de scolarité  s’élèvent
-    à 295.000F CFA /an ou payables en 8 tranches \n1e Versement : 50.000F CFA \n2e
-    Versement : novembre  35.000FCFA .\n3e Versement : décembre  35.000FCFA .\nAinsi
-    de suite jusqu’au … 8e Versement au mois de mai.\nPrix de la blouse: 5000F CFA.\nDémarrage
-    des inscriptions : aout \nDébut des cours : novembre\n\n"
+    les frais de scolarité  s’élèvent à 370.000F CFA /an ou payables en 8 tranches.
+    \ \n\n- Pour les auditeurs étrangers, les frais de scolarité  s’élèvent à 395.000F
+    CFA /an ou payables en 8 tranches. \n\nDémarrage des inscriptions : aout \nDébut
+    des cours : octobre\n\nFrais de scolarité: (COURS DU SOIR: lundi au vendredi 16h
+    - 20h et samedi 08h - 16h)\n- Pour les auditeurs sénégalais, les frais de scolarité
+    \ s’élèvent à 265.000F CFA /an ou payables en 8 tranches. \n\n- Pour les auditeurs
+    étrangers, les frais de scolarité  s’élèvent à 295.000F CFA /an ou payables en
+    8 tranches \n\nPrix de la blouse: 5000F CFA.\nDémarrage des inscriptions : aout
+    \nDébut des cours : novembre\n\n"
   mini_description: ''
 - nom_diplome: BEP
   nom_complet: Brevet d'étude professionnelle
