@@ -43,8 +43,8 @@ fields:
   label: layout
   default: departement
 pages:
-- _departements/electromecanique.md
 - _departements/batiment.md
+- _departements/electromecanique.md
 - _departements/plasturgie-alimentaire.md
 - _departements/productique.md
 - _departements/maintenance-industrielle.md
