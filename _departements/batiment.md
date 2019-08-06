@@ -14,8 +14,8 @@ diplomes:
   description: "(COURS DU JOUR et COURS DU SOIR) :\nDossier à fournir\n01 copie légalisée
     du BEFM ou du BEP ou équivalent ; 01 Extrait de naissance ; 01 photocopie légalisée
     de la pièce d’identité ou passeport ; 02 photos d’identité ;          01 livret
-    de BAC vierge.\nDurée de la formation :\n2ans pour les titulaires du BEP (dans
-    la même spécialité) et 3ans pour les titulaires du BFEM. ****************************************************************\nCOURS
+    de BAC vierge.\nDurée de la formation :\n2ans pour les titulaires du BEP (en Batiment)
+    et 3ans pour les titulaires du BFEM ou équivalent. ****************************************************************\nCOURS
     DU JOUR: (lundi au vendredi 08h - 16h)\nFrais de scolarité: \n  *Pour les auditeurs
     sénégalais, les frais de scolarité  s’élèvent à 370.000F CFA /an à solder au plus
     tard en fin avril. Ce montant peut etre payé en 8 tranches \n1e Versement : 55.000F
@@ -25,8 +25,8 @@ diplomes:
     /an à solder au plus tard en fin avril. Ce montant peut etre payé en 8 tranches\n1e
     Versement : 45.000F CFA (inscription)\n2e Versement : octobre  50.000FCFA .\n3e
     Versement : novembre  50.000FCFA .\nAinsi de suite jusqu’au … 8e Versement au
-    mois d’avril.\nPrix de la blouse: 5000F CFA.\nDémarrage des inscriptions : aout
-    \nDébut des cours : octobre ****************************************************************\n
+    mois d’avril.\n-Prix de la blouse: 5000F CFA.\n-Démarrage des inscriptions : aout
+    \n-Début des cours : octobre ****************************************************************\n
     COURS DU SOIR: (lundi au vendredi 16h - 20h et samedi 08h - 16h )                                                                               Frais
     de scolarité:\n *Pour les auditeurs sénégalais, les frais de scolarité  s’élèvent
     à 265.000F CFA /an à solder au plus tard en fin mai. Ce montant peut etre payé
@@ -37,8 +37,8 @@ diplomes:
     /an à solder au plus tard en fin mai. Ce montant peut etre payé en 8 tranches
     \n1e Versement : 50.000F CFA (inscription)\n2e Versement : novembre  35.000FCFA
     .\n3e Versement : décembre  35.000FCFA .\nAinsi de suite jusqu’au … 8e Versement
-    au mois de mai.\nPrix de la blouse: 5000F CFA.\nDémarrage des inscriptions : aout
-    \nDébut des cours : novembre\n\n\n\n\n"
+    au mois de mai.\n-Prix de la blouse: 5000F CFA.\n-Démarrage des inscriptions :
+    aout \n-Début des cours : novembre\n\n\n\n\n"
   mini_description: ''
 - nom_diplome: BEP
   nom_complet: Brevet d'étude professionnelle
