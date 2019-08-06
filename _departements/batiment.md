@@ -20,13 +20,13 @@ diplomes:
     les frais de scolarité  s’élèvent à 370.000F CFA /an ou payables en 8 tranches.
     \ \n\n- Pour les auditeurs étrangers, les frais de scolarité  s’élèvent à 395.000F
     CFA /an ou payables en 8 tranches. \n\nDémarrage des inscriptions : aout \nDébut
-    des cours : octobre\n\nFrais de scolarité: (COURS DU SOIR: lundi au vendredi 16h
-    - 20h et samedi 08h - 16h)\n- Pour les auditeurs sénégalais, les frais de scolarité
+    des cours : octobre\n\n\n\n\n"
+  mini_description: "Frais de scolarité: (COURS DU SOIR: lundi au vendredi 16h - 20h
+    et samedi 08h - 16h)\n- Pour les auditeurs sénégalais, les frais de scolarité
     \ s’élèvent à 265.000F CFA /an ou payables en 8 tranches. \n\n- Pour les auditeurs
     étrangers, les frais de scolarité  s’élèvent à 295.000F CFA /an ou payables en
     8 tranches \n\nPrix de la blouse: 5000F CFA.\nDémarrage des inscriptions : aout
-    \nDébut des cours : novembre\n\n\n"
-  mini_description: ''
+    \nDébut des cours : novembre"
 - nom_diplome: BEP
   nom_complet: Brevet d'étude professionnelle
   description: ''
