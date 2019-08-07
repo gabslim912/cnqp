@@ -43,6 +43,7 @@ fields:
   label: layout
   default: departement
 pages:
+- _departements/electrotechnique.md
 - _departements/batiment.md
 - _departements/electromecanique.md
 - _departements/plasturgie-alimentaire.md
@@ -53,6 +54,5 @@ pages:
 - _departements/maintenance-electronique-et-informatique.md
 - _departements/structures-metalliques.md
 - _departements/mecanique-automobile.md
-- _departements/electrotechnique.md
 - _departements/froid-et-climatisation.md
 - _departements/electronique.md
