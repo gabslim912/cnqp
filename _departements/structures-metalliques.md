@@ -1,7 +1,10 @@
 ---
 layout: departement
 title: STRUCTURES METALLIQUES
-mini_desc: ''
+mini_desc: |
+  Les structures métalliques regroupent l'ensemble des disciplines visant à utiliser toutes formes de métaux quels que soient les métaux et quelle que soit leur forme.
+  Il s'agit ici de transformer la matière première constituée de profils de toutes formes ou de tôles en objets manufacturés, charpentes, appareils à pression, objets de consommation.
+  La fabrication de ces objets se réalise en atelier : l'orfèvre réalise des pièces grâce à un atelier de fonderie, le charpentier réalise des éléments de charpente en acier, le menuisier fabrique portes et fenêtres en aluminium, le chaudronnier construit des pièces industrielles à partir de tôles d'acier, etc.
 matieres_com: []
 diplomes:
 - nom_diplome: CAP

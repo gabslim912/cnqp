@@ -43,6 +43,7 @@ fields:
   label: layout
   default: departement
 pages:
+- _departements/structures-metalliques.md
 - _departements/productique.md
 - _departements/plasturgie-alimentaire.md
 - _departements/menuiserie-bois.md
@@ -53,5 +54,4 @@ pages:
 - _departements/electrotechnique.md
 - _departements/batiment.md
 - _departements/electromecanique.md
-- _departements/structures-metalliques.md
 - _departements/electronique.md
