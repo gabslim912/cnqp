@@ -17,5 +17,6 @@ diplomes:
   description: ''
   mini_description: ''
 image: ''
+published: false
 
 ---
