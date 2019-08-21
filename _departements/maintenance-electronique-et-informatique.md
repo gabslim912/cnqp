@@ -13,6 +13,5 @@ matieres_com:
 - ''
 diplomes: []
 image: "/uploads/elecinfo.JPG"
-published: false
 
 ---
