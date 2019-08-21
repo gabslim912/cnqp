@@ -43,6 +43,7 @@ fields:
   label: layout
   default: departement
 pages:
+- _departements/maintenance-industrielle.md
 - _departements/maintenance-electronique-et-informatique.md
 - _departements/informatique-industrielle-et-automatique-1.md
 - _departements/mecanique-automobile.md
@@ -51,7 +52,6 @@ pages:
 - _departements/electromecanique.md
 - _departements/plasturgie-alimentaire.md
 - _departements/productique.md
-- _departements/maintenance-industrielle.md
 - _departements/menuiserie-bois.md
 - _departements/structures-metalliques.md
 - _departements/electronique.md
