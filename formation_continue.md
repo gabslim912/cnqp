@@ -1,5 +1,5 @@
 ---
-title: Formation continueggjfgfhgfgufgjhikfhyifghigyihgiig
+title: Formation continue ggjfgfhgfgufgjhikfhyifghigyihgiig
 permalink: "/formation_continue/"
 layout: departement
 
