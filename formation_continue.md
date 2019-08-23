@@ -1,7 +1,7 @@
 ---
-title: Formation continue ggjfgfhgfgufgjhikfhyifghigyihgiig
+title: 'Formation continue '
 permalink: "/formation_continue/"
-layout: departement
+layout: departement ggjfgfhgfgufgjhikfhyifghigyihgiig
 
 ---
 ggjfgfhgfgufgjhikfhyifghigyihgiig
