@@ -1,7 +1,7 @@
 ---
 title: 'Formation continue '
-permalink: "/formation_continue/ghghgvhdhdhdfhdfhhfdfhdfhdfh"
-layout: departement aliou ba
+permalink: "/formation_continue/"
+layout: 'departement '
 published: false
 
 ---
