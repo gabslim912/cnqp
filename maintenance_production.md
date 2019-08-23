@@ -1,6 +1,6 @@
 ---
 title: Maintenance Production
-permalink: "/maintenance_production/ cqdre de fonctionctionn"
+permalink: "/maintenance_production/ "
 layout: departement
 
 ---
