@@ -4,27 +4,45 @@ hide_body: false
 fields:
 - type: field_group_list
   name: sliders
-  label: sliders
+  label: Slides
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
+    default: Lorem ipsum dolor sit amet, consectetur
   - type: text
     name: link
     label: link
+    hidden: true
   - type: textarea
     name: description
-    label: description
+    label: Description
   - type: file
     name: image
-    label: image
+    label: Image
 - type: file
   name: image_1
-  label: image 1
+  label: Image historique
   description: Image apparaissant a droite de l'historique
+- name: annee_historique
+  type: text
+  config:
+    required: false
+  label: Année historique
+  description: 19XX
+- name: titre_diplome
+  type: text
+  config:
+    required: false
+  label: Titre Section Diplôme
+- name: description_diplome
+  type: text
+  config:
+    required: false
+  label: Description Section Diplôme
 - type: list
   name: diplomes
-  label: diplomes
+  label: Diplômes
   description: Ajoutez au fur et a mesure les diplomes en cliquant sur add
 - type: text
   name: layout
