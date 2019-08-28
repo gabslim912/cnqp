@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: MAINTENANCE INDUSTRIELLE
+title: Maintenance Industrielle
 mini_desc: |-
   Le technicien de maintenance industrielle est le garant du bon état de fonctionnement des divers appareils et outils d’une entreprise : robots, avions, tracteurs, voitures… Pour cela, ses tâches sont diverses.
   Il vérifie au quotidien que chaque équipement fonctionne correctement. Son travail d’observation et de test est primordial pour prévenir d’éventuels problèmes qui pourraient entraver le bon déroulement des opérations de la boîte pour laquelle il travaille.

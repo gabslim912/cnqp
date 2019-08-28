@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: INFORMATIQUE INDUSTRIELLE ET AUTOMATIQUE
+title: Informatique Industrielle et Automatique
 mini_desc: 'L’informatique Industrielle ou le Génie Informatique étudie les systèmes
   informatiques et informatisés avec lesquels l''homme coopère, destinés à la perception,
   l''observation, l''aide à la décision et à la conduite de systèmes dynamiques. Dans

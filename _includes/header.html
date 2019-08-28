@@ -6,7 +6,7 @@
   <!-- "dark": dark version of header top e.g. class="header-top dark" -->
   <!-- "colored": colored version of header top e.g. class="header-top colored" -->
   <!-- ================ -->
-  <div class="header-top colored">
+  <div class="header-top colored hidden-xs">
     <div class="container">
       <div class="row">
         <div class="col-xs-2 col-sm-5">
@@ -64,7 +64,7 @@
 
             <!-- logo -->
             <div id="logo" class="logo">
-              <a href="/"><img id="logo_img" src="/images/logo_cnqp.png" alt="CNQP" width="auto"></a>
+              <a href="/"><img id="logo_img" src="/images/logo_cnqp.png" alt="CNQP" width="165px;"></a>
             </div>
 
             
@@ -125,17 +125,30 @@
                                     
                                     <div class="row">
                                       <div class="col-sm-8">
-                                        <h4 class="title">Formation Initiale</h4>
+                                        <h4 class="title" style="text-transform: capitalize;">Formation Initiale</h4>
                                         <div class="divider"></div>
-                                        <ul class="menu">
-                                          {% for departement in site.departements %}
-                                          <li style="text-transform: lowercase;"><a href="{{ departement.url }}" target="blank"><i class="fa fa-angle-right"></i>{{ departement.title | slice: 0, 26}}</a></li>
-                                         {% endfor %}
-                                         
-                                        </ul>
+                                        <div class="row">
+                                          <div class="col-md-6">
+                                            <ul class="menu">
+                                              {% for departement in site.departements limit: 8 %}
+                                              <li style="text-transform: capitalize;"><a href="{{ departement.url }}" target="blank"><i class="fa fa-angle-right"></i>{{ departement.title | slice: 0, 25}}</a></li>
+                                             {% endfor %}
+                                             
+                                            </ul>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <ul class="menu">
+                                              {% for departement in site.departements offset: 8 %}
+                                              <li style="text-transform: capitalize;"><a href="{{ departement.url }}" target="blank"><i class="fa fa-angle-right"></i>{{ departement.title | slice: 0, 25}}</a></li>
+                                             {% endfor %}
+                                             
+                                            </ul>
+                                          </div>
+                                        </div>
+                                        
                                       </div>
                                       <div class="col-sm-4">
-                                        <h4 class="title">Formation Continue et Prestations</h4>
+                                        <h4 class="title" style="text-transform: capitalize;">Formation Continue et Prestations</h4>
                                         <div class="divider"></div>
                                         <ul class="menu">
                                            <li ><a href="/formation_continue"><i class="fa fa-angle-right"></i>Formation Continue</a></li>

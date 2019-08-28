@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: MENUISERIE BOIS
+title: Menuiserie Bois
 mini_desc: a menuiserie, art et métier, est l'ensemble des techniques mises en œuvre
   pour construire des ouvrages de taille relativement petite (par opposition aux ouvrages
   de charpente) par la mise en forme et l'assemblage de menues pièces de bois1. Ces

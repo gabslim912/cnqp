@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: STRUCTURES METALLIQUES
+title: Structures Métalliques
 mini_desc: |
   Les structures métalliques regroupent l'ensemble des disciplines visant à utiliser toutes formes de métaux quels que soient les métaux et quelle que soit leur forme.
   Il s'agit ici de transformer la matière première constituée de profils de toutes formes ou de tôles en objets manufacturés, charpentes, appareils à pression, objets de consommation.

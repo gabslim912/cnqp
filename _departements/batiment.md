@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: BATIMENT
+title: Bâtiment
 mini_desc: 'Le titulaire d’un diplôme en bâtiment et construction au CNQP, réalise,
   à partir de directives sur des chantiers de constructions neuves de rénovations
   ou de réhabilitation, l’ensemble des travaux du gros œuvre dans les secteurs suivants

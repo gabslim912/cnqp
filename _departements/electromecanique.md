@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: ELECTROMECANIQUE
+title: Électromécanique
 mini_desc: "-\tL' Electromécanicien  interviendra principalement sur la partie opérative,
   mais il devra cependant avoir une compréhension globale des systèmes automatisés
   pour interpréter les données issues des autres parties que sont la commande et les

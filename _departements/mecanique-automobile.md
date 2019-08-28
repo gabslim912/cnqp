@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: MECANIQUE / MECATRONIQUE  Option AUTOMOBILE
+title: Mécanique / Mécatronique - Option Automobile
 date: '2018-07-28T20:55:37.000+00:00'
 mini_desc: La formation d’une durée de deux à trois ans a pour objectif de mettre
   sur le marché du travail des ouvriers qualifiés opérationnels dès leur sortie grâce

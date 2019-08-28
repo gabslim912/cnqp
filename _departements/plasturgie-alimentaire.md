@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: PLASTURGIE ALIMENTAIRE
+title: Plasturgie Alimentaire
 mini_desc: La plasturgie est une industrie relativement récente si on la compare aux
   autres industries telles que la sidérurgie avec laquelle elle partage certains points
   communs (gestion de la fusion, moulage, etc.)

@@ -1,6 +1,6 @@
 ---
 layout: departement
-title: MAINTENANCE ELECTRONIQUE ET INFORMATIQUE
+title: Maintenance Électronique et Informatique
 mini_desc: Le technicien de maintenance en électronique grand public est un spécialiste
   du dépannage. Lorsqu’il se rend chez un client, il doit être capable de rechercher
   l’origine de la panne pour ensuite effectuer la réparation sur place. Il change

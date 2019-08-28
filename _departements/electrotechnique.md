@@ -1,5 +1,5 @@
 ---
-title: ELECTROTECHNIQUE
+title: Électrotechnique
 layout: departement
 date: '2018-10-16T16:07:32.000+00:00'
 mini_desc: Etude des installations industrielles et domestiques, mesures, essais des

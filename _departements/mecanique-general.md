@@ -1,5 +1,5 @@
 ---
-title: MECANIQUE GENERALE
+title: Mécanique Générale
 permalink: "/insertion/"
 layout: insertion
 description: |-
