@@ -57,6 +57,12 @@ fields:
   name: avantages
   label: avantages
   fields:
+  - name: position
+    type: text
+    config:
+      required: false
+    label: Position
+    description: 'Ex: One or Two or Three ...'
   - type: text
     name: title
     label: title
