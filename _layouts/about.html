@@ -113,12 +113,12 @@ layout: default
 									<div class="panel panel-default">
 										<div class="panel-heading">
 											<h4 class="panel-title">
-												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapse{{ avantage.position }}">
 													<i class="fa fa-rocket pr-10"></i>{{ avantage.title }}
 												</a>
 											</h4>
 										</div>
-										<div id="collapseOne" class="panel-collapse collapse out">
+										<div id="collapse{{ avantage.position }}" class="panel-collapse collapse out">
 											<div class="panel-body">
 												{{ avantage.description}}
 											</div>
