@@ -2,7 +2,7 @@
 title: A propos
 permalink: "/about/"
 layout: about
-date: 2018-07-30 22:40:09 +0000
+date: '2018-07-30T22:40:09.000+00:00'
 mini_desc: Le CNQP situé à Dakar est un centre de formation dépendant du ministère
   de la formation professionnelle, de l'apprentissage et de l'artisanat.
 background: "/uploads/42985509_320004245474175_65756619316658176_n.jpg"
@@ -36,16 +36,19 @@ avantages:
     terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
     dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
     sunt aliqua put.
+  position: One
 - title: Une formation moderne et exceptionnelle
   description: nim pariatur cliche reprehenderit, enim eiusmod high life accusamus
     terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
     dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
     sunt aliqua put.
+  position: Two
 - description: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
     terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
     dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
     sunt aliqua put.
   title: Vous en sortirez spécialiste dans votre domaine
+  position: Three
 bars:
 - Energie Solaire
 - Batiment
