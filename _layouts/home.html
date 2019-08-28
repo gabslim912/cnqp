@@ -21,7 +21,7 @@ layout: default-home
               <img src="{{ page.image_1 }}" alt="">
             </div>
             <div class="col-lg-6">
-              <h3>Depuis <span class="text-default">1983</span></h3>
+              <h3>Depuis <span class="text-default">{{ page.annee_historique }}</span></h3>
               <p class="text-justify">{{ page.content }}</p>
               
             </div>
@@ -36,9 +36,9 @@ layout: default-home
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h3 class="title text-center">Se former au <span class="text-default">CNQP</span></h3>
+              <h3 class="title text-center">{{ page.titre_diplome }}</h3>
               <div class="separator"></div>
-              <p class="lead text-center">Le CNQP offre plusieurs types de formation dans differents domaine pouvant aboutir aux diplomes d'Etat énumérés ci-dessous</p>
+              <p class="lead text-center">{{ page.description_diplome }}</p>
             </div>
           </div>
         </div>
