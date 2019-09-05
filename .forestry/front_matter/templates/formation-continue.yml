@@ -79,3 +79,46 @@ fields:
     schema:
       format: markdown
   label: Texte Modal
+- name: formations_proposes
+  type: field_group_list
+  fields:
+  - name: titre
+    type: text
+    config:
+      required: false
+    label: Titre
+  - name: mini_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Mini description
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  - name: matieres_communes
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Matieres communes
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Formations proposés
