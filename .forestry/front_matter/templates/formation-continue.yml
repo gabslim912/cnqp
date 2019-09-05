@@ -4,10 +4,78 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
+- name: types
+  type: field_group_list
+  fields:
+  - name: nom_de_la_formation
+    type: text
+    config:
+      required: false
+    label: Nom de la formation
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  - name: specifications
+    type: field_group
+    config: {}
+    fields:
+    - name: nom_de_la_specification
+      type: text
+      config:
+        required: false
+      label: Nom de la spécification
+    label: Spécifications
+  - name: complement_css
+    type: text
+    config:
+      required: false
+    label: Complement CSS
+    description: Contacter le développeur pour plus d'infos
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Types de formation
+- name: image_parallax
+  type: file
+  config:
+    maxSize: 250
+  label: Image parallax
+- name: texte_parallax
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Texte Parallax
+- name: texte_modal
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Texte Modal
