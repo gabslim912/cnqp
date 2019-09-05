@@ -35,22 +35,19 @@ fields:
     config:
       maxSize: 250
     label: Image
-  - name: specifications
-    type: field_group
-    config: {}
-    fields:
-    - name: nom_de_la_specification
-      type: text
-      config:
-        required: false
-      label: Nom de la spécification
-    label: Spécifications
   - name: complement_css
     type: text
     config:
       required: false
     label: Complement CSS
     description: Contacter le développeur pour plus d'infos
+  - name: specifications
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Spécifications
   config:
     min: 
     max: 
