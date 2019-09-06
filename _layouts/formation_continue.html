@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+<div class="breadcrumb-container">
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><i class="fa fa-home pr-10"></i><a href="/">Acceuil</a></li>
+			<li class="active">{{ page.title }}</li>
+		</ol>
+	</div>
+</div>
+<!-- breadcrumb end -->
+
+<!-- main-container start -->
+<!-- ================ -->
+<section class="main-container">
+
+	<div class="container">
+		<div class="row">
+
+			<!-- main start -->
+			<!-- ================ -->
+			<div class="main col-md-12">
+				<!-- page-title start -->
+				<!-- ================ -->
+				<h1 class="page-title">{{ page.title }}</h1>
+				<div class="separator-2"></div>
+				<!-- page-title end -->
+			</div>
+			<!-- main end -->
+
+		</div>
+	</div>
+	
+	<!-- section start -->
+	<!-- ================ -->
+	{% for type in page.types %}
+	{% if type.id == 1 %}
+	<section class="full-width-section">
+		<div class="full-text-container light-gray-bg border-bottom-clear">
+			<h2>{{ type.nom_de_la_formation }}</h2>
+			<div class="separator-2 visible-lg"></div>
+			<p>{{ type.description }}</p>
+		</div>
+		<div class="full-image-container light-gray-bg">
+			<img class="to-right-block" src="{{ type.image }}" alt="">
+			<div class="full-image-overlay text-right">
+				<h3>Spécifications</h3>
+				<ul class="list-icons">
+					{% for specification in type.specifications %}
+					<li>{{ specification }} <i class="icon-check-1"></i></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</section>
+	{% endif %}
+	{% if type.id == 2 %}
+	<section class="full-width-section">
+		<div class="full-image-container light-gray-bg">
+			<img src="{{ type.image }}" alt="">
+			<div class="full-image-overlay">
+				<h3>Spécifications</h3>
+				<ul class="list-icons">
+					{% for specification in type.specifications %}
+					<li>{{ specification }} <i class="icon-check-1"></i></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div class="full-text-container light-gray-bg border-bottom-clear left text-right">
+			<h2>{{ type.nom_de_la_formation }}</h2>
+			<div class="separator-3 visible-lg"></div>
+			<p>{{ type.description }}</p>
+		</div>
+	</section>
+	{% endif %}
+	{% endfor %}
+	<!-- section end -->
+</section>
+<section class="section parallax background-img-1 light-translucent-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="call-to-action text-center">
+					<div class="row">
+						<div class="col-sm-8">
+							<h1 class="title">Les formations inter-entreprise et intra-entreprise que nous offrons sont entièrement personnalisable</h1>
+						</div>
+						<div class="col-sm-4">
+							<br>
+							<p><a href="#" class="btn btn-lg btn-default btn-animated">En savoir plus<i class="fa fa-shopping-cart pl-20"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="main-container">
+
+	<div class="container">
+		<div class="row">
+
+			<!-- main start -->
+			<!-- ================ -->
+			<div class="main col-md-12">
+				<h2>Liste des modules</h2>
+				<div class="row">
+					{% for formation in page.formations_proposes %}
+					<div class="col-sm-4">
+						<div class="image-box style-2 mb-20 shadow bordered light-gray-bg text-center">
+							<div class="overlay-container">
+								<img src="{{ formation.image }}" alt="{{ formation.titre }}">
+								
+							</div>
+							<div class="body">
+								<h3>{{ formation.titre }}</h3>
+								<div class="separator"></div>
+								<p>{{ formation.mini_description }}</p>
+								<a href="#" class="btn btn-default btn-sm btn-hvr hvr-shutter-out-horizontal margin-clear">En savoir plus<i class="fa fa-arrow-right pl-10"></i></a>												
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,9 +1,10 @@
 ---
 title: 'Formation continue '
 permalink: "/formation_continue/"
-layout: 'departement '
+layout: 'formation_continue'
 types:
 - nom_de_la_formation: Séminaires inter-entreprise
+  id: 1
   description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it to make a type
@@ -11,6 +12,9 @@ types:
     electronic typesetting, remaining essentially unchanged.
   image: "/uploads/elecinfo.JPG"
   complement_css: ''
+  complement_css1: full-image-container
+  complement_css2: full-text-container
+  complement_css3: to-right-block
   specifications:
   - Lorem Ipsum is simply dummy text
   - Lorem Ipsum is simply dummy text
@@ -18,6 +22,7 @@ types:
   - Lorem Ipsum is simply dummy text
   - Lorem Ipsum is simply dummy text
 - nom_de_la_formation: Séminaires intra-entreprise
+  id: 2
   description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it to make a type
@@ -25,6 +30,9 @@ types:
     electronic typesetting, remaining essentially unchanged.
   image: "/uploads/froid.JPG"
   complement_css: left text-right
+  complement_css1: full-text-container
+  complement_css2: full-image-container
+  complement_css3: ''
   specifications:
   - Lorem Ipsum is simply dummy text
   - Lorem Ipsum is simply dummy text
