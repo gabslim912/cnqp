@@ -86,10 +86,5 @@ formations_proposes:
   - Lorem Ipsum is simply dummy text
   mini_description: Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. Lorem Ipsum has been the industry's standard
-- titre: ''
-  mini_description: ''
-  description: ''
-  image: ''
-  matieres_communes: []
 
 ---
