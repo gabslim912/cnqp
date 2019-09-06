@@ -119,3 +119,5 @@ fields:
     max: 
     labelField: 
   label: Formations proposés
+pages:
+- formation_continue.md
