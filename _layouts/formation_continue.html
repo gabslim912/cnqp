@@ -90,7 +90,25 @@ layout: default
 						</div>
 						<div class="col-sm-4">
 							<br>
-							<p><a href="#" class="btn btn-lg btn-default btn-animated">En savoir plus<i class="fa fa-shopping-cart pl-20"></i></a></p>
+							<p><a class="btn btn-lg btn-default btn-animated" data-toggle="modal" data-target="#myModal1">En savoir plus<i class="fa fa-search pl-20"></i></a></p>
+							<!-- Modal -->
+							<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+											<h4 class="modal-title" id="myModalLabel">{{ page.title }}</h4>
+										</div>
+										<div class="modal-body">
+											<p>{{ page.texte_modal }}</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Fermer</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -108,18 +126,18 @@ layout: default
 			<div class="main col-md-12">
 				<h2>Liste des modules</h2>
 				<div class="row">
-					{% for formation in page.formations_proposes %}
+					{% for departement in site.departements %}
 					<div class="col-sm-4">
 						<div class="image-box style-2 mb-20 shadow bordered light-gray-bg text-center">
 							<div class="overlay-container">
-								<img src="{{ formation.image }}" alt="{{ formation.titre }}">
+								<img src="{{ departement.image }}" alt="{{ departement.title }}" style="width: 358px;height: 238px;">
 								
 							</div>
 							<div class="body">
-								<h3>{{ formation.titre }}</h3>
+								<h3 style="width: 328px;height: 56px;">{{ departement.title }}</h3>
 								<div class="separator"></div>
-								<p>{{ formation.mini_description }}</p>
-								<a href="#" class="btn btn-default btn-sm btn-hvr hvr-shutter-out-horizontal margin-clear">En savoir plus<i class="fa fa-arrow-right pl-10"></i></a>												
+								<p style="width: 328px;height: 66px;">{{ departement.mini_desc | slice: 0,120 }} ...</p>
+								<a href="{{ departement.url }}" target="blank" class="btn btn-default btn-sm btn-hvr hvr-shutter-out-horizontal margin-clear">En savoir plus<i class="fa fa-arrow-right pl-10"></i></a>												
 							</div>
 						</div>
 					</div>
