@@ -14,11 +14,14 @@
 		
 		<div class="container">
 			<div class="clients-container">
-				<div class="clients">
+				<div class="owl-carousel clients">
 					{% for partenaire in site.partenaires %}
-					<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
-						<a href="#"><img src="{{ partenaire.image }}" alt="" style="width: 200px; height: 90px;"></a>
+					<div class="client" style="width: auto; height: 190px; margin-right: 15px;">
+						<a href="#"><img src="{{ partenaire.image }}" alt="" style="width: auto; height: 190px;"></a>
 					</div>
+					<!--<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+						<a href="#"><img src="{{ partenaire.image }}" alt="" style="width: 200px; height: 90px;"></a>
+					</div>-->
 					{% endfor %}
 				</div>
 			</div>
