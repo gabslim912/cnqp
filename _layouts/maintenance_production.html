@@ -13,44 +13,64 @@ layout: default
 <!-- breadcrumb end -->
 
 <!-- main-container start -->
-	<!-- ================ -->
-	<section class="main-container padding-bottom-clear">
+<!-- ================ -->
+<section class="main-container">
 
+	
+	
+	<div class="container">
+		<br>
+		<h2>{{ page.title }}</h2>
+		<br>
+	</div>
+	<!-- section start -->
+	<!-- ================ -->
+	<section class="full-width-section">
+		<div class="full-image-container light-gray-bg">
+			<img class="to-right-block" src="{{ page.image }}" alt="">
+			<div class="full-image-overlay text-right">
+				<h3>Objectifs de la formation</h3>
+				<ul class="list-icons">
+					<li>We are here to support you <i class="icon-check-1"></i></li>
+					<li>Free updates <i class="icon-check-1"></i></li>
+					<li>ipsam asperiores fugiat quo <i class="icon-check-1"></i></li>
+					<li>Animi veniam veritatis sint <i class="icon-check-1"></i></li>
+					<li>Voluptatum officia suscipit <i class="icon-check-1"></i></li>
+					<li>Unlimited options and variations <i class="icon-check-1"></i></li>
+				</ul>
+			</div>
+		</div>
+		<div class="full-text-container light-gray-bg border-bottom-clear">
+			<h2>Description</h2>
+			<div class="separator-2 visible-lg"></div>
+			<p>{{ page.content }}</p>
+			<div class="separator-3 visible-lg"></div>
+			<a href="/contact" class="btn btn-default btn-hvr hvr-sweep-to-left">Nous contacter <i class="pl-5 icon-envelope"></i></a>
+		</div>
+	</section>
+	<!-- section end -->
 	<div class="container">
 		<div class="row">
-
-			<!-- main start -->
-			<!-- ================ -->
-			<div class="main col-md-12">
-				<h3 class="title"><strong>{{ page.title }}</strong></h3>
-				<div class="separator-2"></div>
-				<div class="row">
-					<div class="col-md-6">
-						<p class="text-justify">
-							{{ page.content }}
-						</p>
-						
-						
-					</div>
-					<div class="col-md-6">
-						<div class="owl-carousel content-slider-with-controls">
-							{% for slider in page.sliders %}
-							<div class="overlay-container overlay-visible">
-								<img src="{{ slider.image }}" alt="" style="width: 555px; height: 416px;">
-								<div class="overlay-bottom hidden-xs">
-									<div class="text">
-										<h3 class="title">{{ slider.title }}</h3>
-									</div>
-								</div>
-								<a href="{{ slider.image }}" class="popup-img overlay-link" title="{{ slider.title }}"><i class="icon-plus-1"></i></a>
-							</div>
-							{% endfor %}
+			<h3>Nos réalisations</h3>
+			<div class="owl-carousel content-slider-with-large-controls-autoplay">
+				{% for slider in page.sliders %}
+				<div class="overlay-container overlay-visible">
+					<img src="{{ slider.image }}" alt="">
+					<div class="overlay-bottom hidden-xs">
+						<div class="text">
+							<h3 class="title">{{ slider.title }}</h3>
+							<p>{{ slider.description }}</p>
 						</div>
 					</div>
+					<a href="{{ slider.image }}" class="popup-img overlay-link" title="{{ slider.title }}"><i class="icon-plus-1"></i></a>
 				</div>
+				{% endfor %}
 			</div>
-			<!-- main end -->
-
+			<br>
 		</div>
 	</div>
+
+	
+	
 </section>
+<!-- main-container end -->
