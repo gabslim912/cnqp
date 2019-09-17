@@ -18,6 +18,13 @@ fields:
   config:
     maxSize: 250
   label: Image principale
+- name: objectifs
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Objectifs
 - name: realisations
   type: field_group_list
   fields:
