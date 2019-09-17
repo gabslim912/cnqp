@@ -4,10 +4,17 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image principale
