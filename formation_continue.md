@@ -41,12 +41,9 @@ image_parallax: "/uploads/42985509_320004245474175_65756619316658176_n.jpg"
 texte_parallax: Lorem Ipsum is simply dummy text
 texte_modal: |-
   <p><strong>OFFRE DE FORMATION</strong></p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
   <ul>
   <li><strong><strong>Cas o&ugrave; le CNQP pr&eacute;sente son offre de formation</strong></strong></li>
   </ul>
-  <p>&nbsp;</p>
   <p><span style="font-weight: 400;">De par son expertise en mati&egrave;re de conseil en formation, la Direction des Prestations de Service effectue des actions de prospections au niveau des entreprises partenaires et des tiers, afin d&rsquo;&eacute;valuer leur besoin en formation.</span></p>
   <p><span style="font-weight: 400;">Ou par le biais de modules standard &agrave; la carte, la direction peut organiser des formations inter-entreprises avec des dur&eacute;es et des dates cal&eacute;es &agrave; l&rsquo;avance.</span></p>
   <p>&nbsp;</p>
@@ -59,7 +56,6 @@ texte_modal: |-
   <li><span style="font-weight: 400;">Une offre technique en tenant compte des t&acirc;ches au quotidien effectu&eacute;es par le personnel &agrave; former&nbsp;;</span></li>
   <li><span style="font-weight: 400;">Une offre financi&egrave;re</span></li>
   </ul>
-  <p><br /><br /></p>
   <p><span style="font-weight: 400;">&nbsp;Il comprend en g&eacute;n&eacute;ral :</span></p>
   <ul>
   <li><span style="font-weight: 400;">le contexte&nbsp;;</span></li>
@@ -69,18 +65,12 @@ texte_modal: |-
   </ul>
   <p>&nbsp;</p>
   <p><strong>LES OUTILS DE MISE EN &OElig;UVRE DE LA FORMATION&nbsp;</strong></p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
   <ul>
   <li><strong><strong>Pr&eacute;paration&nbsp;:</strong> <span style="font-weight: 400;">la fiche d&rsquo;analyse initiale (voir annexe)</span></strong></li>
   </ul>
-  <p>&nbsp;</p>
-  <ul>
   <ul>
   <li style="font-weight: 400;"><strong>R&eacute;alisation&nbsp;:</strong> <span style="font-weight: 400;">la feuille de pr&eacute;sence, le tableau synoptique (voir annexe)</span></li>
   </ul>
-  </ul>
-  <p>&nbsp;</p>
   <ul>
   <li><strong><strong>Evaluation &agrave; chaud&nbsp;: </strong><span style="font-weight: 400;">la feuille d&rsquo;&eacute;valuation des stagiaires, la feuille de satisfaction par rapport &agrave; la formation (voir annexe)</span></strong></li>
   </ul>
@@ -90,8 +80,6 @@ texte_modal: |-
   <ul>
   <li><strong>Evaluation &agrave; froid&nbsp;:</strong> <span style="font-weight: 400;">il est caract&eacute;ris&eacute; par une &eacute;valuation faite par une &eacute;quipe du CNQP en collaboration avec l&rsquo;encadrement technique du form&eacute; en situation r&eacute;elle de travail apr&egrave;s une p&eacute;riode d&eacute;finie d&rsquo;un commun accord avec l&rsquo;entreprise.</span></li>
   </ul>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
 formations_proposes:
 - titre: Automatique
   mini_description: Lorem Ipsum is simply dummy text of the printing and typesetting
