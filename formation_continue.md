@@ -46,7 +46,6 @@ texte_modal: |-
   </ul>
   <p><span style="font-weight: 400;">De par son expertise en mati&egrave;re de conseil en formation, la Direction des Prestations de Service effectue des actions de prospections au niveau des entreprises partenaires et des tiers, afin d&rsquo;&eacute;valuer leur besoin en formation.</span></p>
   <p><span style="font-weight: 400;">Ou par le biais de modules standard &agrave; la carte, la direction peut organiser des formations inter-entreprises avec des dur&eacute;es et des dates cal&eacute;es &agrave; l&rsquo;avance.</span></p>
-  <p>&nbsp;</p>
   <ul>
   <li style="font-weight: 400;"><strong>Cas o&ugrave; le CNQP re&ccedil;oit le cahier des charges de l&rsquo;entreprise</strong></li>
   </ul>
