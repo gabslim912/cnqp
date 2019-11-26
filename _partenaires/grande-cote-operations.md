@@ -1,7 +1,6 @@
 ---
 title: Grande Cote Operations
-date: 2018-08-21 22:30:13 +0000
+date: '2018-08-21T22:30:13.000+00:00'
 image: "/uploads/gco.jpg"
-published: false
 
 ---
