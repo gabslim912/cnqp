@@ -11,6 +11,7 @@ fields:
   label: image
   description: Logo de l'entreprise
 pages:
+- _partenaires/office-national-de-la-formation-professionnelle.md
 - _partenaires/mtoa.md
 - _partenaires/grande-cote-operations.md
 - _partenaires/dakarnave.md
