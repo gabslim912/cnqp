@@ -42,6 +42,7 @@ fields:
   name: layout
   label: layout
   default: departement
+  hidden: true
 pages:
 - _departements/electrotechnique.md
 - _departements/informatique-industrielle-et-automatique-1.md
