@@ -10,3 +10,5 @@ fields:
   name: image
   label: image
   description: Logo de l'entreprise
+pages:
+- _partenaires/3fpt.md
