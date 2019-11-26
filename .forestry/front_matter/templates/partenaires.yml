@@ -11,6 +11,7 @@ fields:
   label: image
   description: Logo de l'entreprise
 pages:
+- _partenaires/mtoa.md
 - _partenaires/grande-cote-operations.md
 - _partenaires/dakarnave.md
 - _partenaires/armee-de-l-air.md
