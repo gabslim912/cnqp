@@ -1,13 +1,16 @@
 ---
 layout: departement
 title: Bâtiment
-mini_desc: 'Le titulaire d’un diplôme en bâtiment et construction au CNQP, réalise,
+mini_desc: Le titulaire d’un diplôme en bâtiment et construction au CNQP, réalise,
   à partir de directives sur des chantiers de constructions neuves de rénovations
-  ou de réhabilitation, l’ensemble des travaux du gros œuvre dans les secteurs suivants
-  : constructions de maisons individuelles, constructions de bâtiments divers, travaux
-  de maçonnerie générale, de plomberie, d''électricité batiment, dessin bâtiment manuel,
-  dessin assisté à l’ordinateur (DAO)...'
-matieres_com: []
+  ou de réhabilitation.
+matieres_com:
+- ''
+- Lorem ipsum dolor sit amet, consectetur adipiscing
+- Lorem ipsum dolor sit amet, consectetur adipiscing
+- Lorem ipsum dolor sit amet, consectetur adipiscing
+- Lorem ipsum dolor sit amet, consectetur adipiscing
+- Lorem ipsum dolor sit amet, consectetur adipiscing
 diplomes:
 - nom_diplome: BT
   nom_complet: Brevet de Technicien
@@ -52,7 +55,7 @@ diplomes:
   nom_complet: Certificat d'Aptitude Professionnelle
   description: ''
   mini_description: ''
-image: ''
+image: "/uploads/4.jpg"
 
 ---
 Le titulaire d’un diplôme en bâtiment et construction au CNQP, réalise, à partir de directives sur des chantiers de constructions neuves de rénovations ou de réhabilitation, l’ensemble des travaux du gros œuvre dans les secteurs suivants : constructions de maisons individuelles, constructions de bâtiments divers, travaux de maçonnerie générale, de plomberie, d'électricité batiment, dessin bâtiment manuel, dessin assisté à l’ordinateur (DAO)...
