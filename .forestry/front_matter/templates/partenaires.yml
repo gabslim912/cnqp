@@ -11,11 +11,11 @@ fields:
   label: image
   description: Logo de l'entreprise
 pages:
-- _partenaires/somair.md
-- _partenaires/office-national-de-la-formation-professionnelle.md
-- _partenaires/mtoa.md
-- _partenaires/grande-cote-operations.md
-- _partenaires/dakarnave.md
-- _partenaires/armee-de-l-air.md
-- _partenaires/ama.md
 - _partenaires/3fpt.md
+- _partenaires/ama.md
+- _partenaires/armee-de-l-air.md
+- _partenaires/dakarnave.md
+- _partenaires/grande-cote-operations.md
+- _partenaires/mtoa.md
+- _partenaires/office-national-de-la-formation-professionnelle.md
+- _partenaires/somair.md

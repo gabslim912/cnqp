@@ -45,14 +45,14 @@ fields:
   hidden: true
 pages:
 - _departements/batiment.md
+- _departements/electromecanique.md
+- _departements/electronique.md
 - _departements/electrotechnique.md
 - _departements/informatique-industrielle-et-automatique-1.md
-- _departements/productique.md
-- _departements/mecanique-automobile.md
-- _departements/electromecanique.md
-- _departements/menuiserie-bois.md
 - _departements/maintenance-electronique-et-informatique.md
-- _departements/electronique.md
 - _departements/maintenance-industrielle.md
-- _departements/structures-metalliques.md
+- _departements/mecanique-automobile.md
+- _departements/menuiserie-bois.md
 - _departements/plasturgie-alimentaire.md
+- _departements/productique.md
+- _departements/structures-metalliques.md
