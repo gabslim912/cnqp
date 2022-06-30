@@ -10,15 +10,14 @@ sliders:
 - title: Notre raison d’être
   link: "/about"
   description: Le CNQP a pour mission principale de préparer à l’emploi les jeunes
-    issus du système scolaire sans qualification <br>professionnelle, d’assurer la
-    formation continue des agents en activité et de jouer le rôle de conseil en matière<br>de
-    formation professionnelle auprès des entreprises.
+    issus du système scolaire <br>sans qualification professionnelle, d’assurer la
+    formation continue des agents en activité.
   image: "/uploads/4.jpg"
 - title: Ce qui nous motive
   link: "/about"
   description: Un vaste processus de consultation a permis de dégager les valeurs
-    considérées comme fondamentales <br>et qui reflétaient adéquatement la culture
-    de l’établissement
+    considérées comme <br>fondamentales et qui reflétaient adéquatement la culture
+    de l’établissement.
   image: "/uploads/8.jpg"
 image_1: "/uploads/6.jpg"
 diplomes:
